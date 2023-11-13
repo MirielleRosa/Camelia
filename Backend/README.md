@@ -1,3 +1,4 @@
 # Compilar
 
-para compilar o backend: npm start 
+para compilar o backend: nodemon app.js
+
