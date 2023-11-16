@@ -77,7 +77,7 @@ export default {
     console.log("Before navigation");
     this.$router.push('/login'); // Use the correct path
     console.log("After navigation");
-  },
+    },
   },
 };
 </script>
