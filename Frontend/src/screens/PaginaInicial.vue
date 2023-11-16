@@ -100,13 +100,6 @@ export default {
   width: 100%; /* Adjusted to be 100% width */
 }
 
-/* .pagina-inicial .overlap-8 {
-  height: 7959px;
-  position: relative;
-  width: 100%;
-  max-width: 1440px; 
-  margin: 0 auto;
-} */
 .pagina-inicial .overlap-8 {
   height: 7959px;
   position: relative;

@@ -62,9 +62,11 @@
 </template>
 
 <script>
+
 export default {
   name: "LoginPrestadorDe",
 };
+
 </script>
 
 <style>
