@@ -62,6 +62,7 @@ import Group from "./PaginaInicial/sections/Group.vue";
 import OverlapWrapper from "./PaginaInicial/sections/OverlapWrapper.vue";
 import Section from "./PaginaInicial/sections/Section.vue";
 
+
 export default {
   name: "PaginaInicial",
   components: {
