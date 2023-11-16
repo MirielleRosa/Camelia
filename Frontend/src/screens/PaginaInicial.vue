@@ -3,9 +3,9 @@
     <div class="overlap-wrapper-2">
       <div class="overlap-8">
         <div class="text-wrapper-52">Pedidos mais requisitados</div>
-        <button class="button-top">
+        <div class="button-top" @click="goToLogin">
           <div class="text-wrapper-53">LOGIN</div>
-        </button>
+        </div>
         <img class="group-15" alt="Group" src="https://c.animaapp.com/dmaOkRSZ/img/group-7-1.svg" />
         <Group />
         <img class="frame-3" alt="Frame" src="https://c.animaapp.com/dmaOkRSZ/img/frame-2-9.png" />
@@ -72,6 +72,13 @@ export default {
     OverlapWrapper,
     Section,
   },
+  methods: {
+    goToLogin() {
+    console.log("Before navigation");
+    this.$router.push('/login'); // Use the correct path
+    console.log("After navigation");
+  },
+  },
 };
 </script>
 
@@ -92,13 +99,25 @@ export default {
   width: 100%; /* Adjusted to be 100% width */
 }
 
+/* .pagina-inicial .overlap-8 {
+  height: 7959px;
+  position: relative;
+  width: 100%;
+  max-width: 1440px; 
+  margin: 0 auto;
+} */
 .pagina-inicial .overlap-8 {
   height: 7959px;
   position: relative;
-  width: 100%; /* Adjusted to be 100% width */
-  max-width: 1440px; /* Added maximum width to avoid stretching on large screens */
-  margin: 0 auto; /* Center the content */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
 }
+
 
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -144,7 +163,6 @@ export default {
 }
 
 .pagina-inicial .button-top {
-  all: unset;
   background-color: #0c0c0c;
   border-radius: 36px;
   box-sizing: border-box;
@@ -153,7 +171,10 @@ export default {
   position: absolute;
   top: 2836px;
   width: 289px;
+  z-index: 100; 
+  cursor: pointer; /* Add this line to indicate it's clickable */
 }
+
 
 .pagina-inicial .text-wrapper-53 {
   color: #ffffff;
@@ -293,7 +314,9 @@ export default {
   position: absolute;
   top: 3530px;
   width: 630px;
+  cursor: pointer; 
 }
+
 
 .pagina-inicial .text-wrapper-57 {
   color: #ffffff;
