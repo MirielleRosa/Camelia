@@ -1,5 +1,6 @@
 <template>
   <div class="login-prestador-de">
+    <div class="center-container">
     <div class="overlap-wrapper">
       <div class="overlap">
         <div class="rectangle" />
@@ -9,12 +10,14 @@
           <img class="line" alt="Line" src="https://c.animaapp.com/F5f4Yjvp/img/line-21.svg" />
         </div>
         <div class="group-2">
+
           <div class="group-wrapper">
             <div class="overlap-group-wrapper">
               <div class="overlap-group">
                 <div class="payments">ENTRAR</div>
               </div>
             </div>
+          
           </div>
           <div class="div-wrapper">
             <div class="payments-wrapper">
@@ -57,33 +60,43 @@
           src="https://c.animaapp.com/F5f4Yjvp/img/tiro-isolado-de-sorridente-faz-tudo-caucasiano-envelhecido-com-b.png"
         />
       </div>
-    </div>
+    
+    
+    
+    </div> 
+  </div>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: "LoginPrestadorDe",
+  name: "login",
 };
 
 </script>
 
 <style>
-.login-prestador-de {
+ html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .login-prestador-de {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-prestador-de .overlap-wrapper {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  width: 70%; /* Adjust the width as needed */
+  height: 100%;
+  margin: auto; /* Center the element horizontally */
 }
 
-.login-prestador-de .overlap-wrapper {
-  background-color: #ffffff;
-  height: 1203px;
-  overflow: hidden;
-  width: 1440px;
-}
 
 .login-prestador-de .overlap {
   height: 1173px;
@@ -254,6 +267,13 @@ export default {
   position: absolute;
   top: 1001px;
   width: 1440px;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .login-prestador-de .frame {

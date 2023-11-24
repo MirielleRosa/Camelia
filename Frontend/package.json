@@ -12,7 +12,7 @@
     "axios": "^1.6.1",
     "tailwindcss": "^3.3.5",
     "vue": "2.6.11",
-    "vue-router": "3.6.5"
+    "vue-router": "^3.6.5"
   },
   "devDependencies": {
     "@vue/cli-service": "4.1.1",

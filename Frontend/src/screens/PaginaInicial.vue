@@ -1,11 +1,14 @@
 <template>
+  
   <div class="pagina-inicial">
     <div class="overlap-wrapper-2">
       <div class="overlap-8">
         <div class="text-wrapper-52">Pedidos mais requisitados</div>
-        <div class="button-top" @click="goToLogin">
+        <div class="button-top" @click="onLoginClick()">
+          
           <div class="text-wrapper-53">LOGIN</div>
         </div>
+       
         <img class="group-15" alt="Group" src="https://c.animaapp.com/dmaOkRSZ/img/group-7-1.svg" />
         <Group />
         <img class="frame-3" alt="Frame" src="https://c.animaapp.com/dmaOkRSZ/img/frame-2-9.png" />
@@ -74,43 +77,40 @@ export default {
     Section,
   },
   methods: {
-    goToLogin() {
-    console.log("Before navigation");
-    this.$router.push('/login'); // Use the correct path
-    console.log("After navigation");
-    },
-  },
+  onLoginClick() {
+    if (this.$router.currentRoute.path !== '/login') {
+      this.$router.push('/login')
+    }
+  }
+}
 };
 </script>
 
 <style>
 
 .pagina-inicial {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
+    min-height: 100vh; /* Defina a altura mínima como 100% da altura da viewport */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; /* Faça com que os itens se estendam verticalmente */
+  }
 
-.pagina-inicial .overlap-wrapper-2 {
-  background-color: #ffffff;
-  height: 3405px;
-  overflow: hidden;
-  width: 100%; /* Adjusted to be 100% width */
-}
+  .pagina-inicial .overlap-wrapper-2 {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%; /* Faça com que o wrapper ocupe 100% da largura */
+  }
 
-.pagina-inicial .overlap-8 {
-  height: 7959px;
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center the content horizontally */
-  justify-content: center; /* Center the content vertically */
-}
+  .pagina-inicial .overlap-8 {
+    height: 100%; /* Faça com que o conteúdo se estenda até o final da tela */
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 /* Add media query for smaller screens */
