@@ -60,9 +60,6 @@
           src="https://c.animaapp.com/F5f4Yjvp/img/tiro-isolado-de-sorridente-faz-tudo-caucasiano-envelhecido-com-b.png"
         />
       </div>
-    
-    
-    
     </div> 
   </div>
   </div>

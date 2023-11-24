@@ -96,6 +96,7 @@ export default {
     align-items: stretch; /* Faça com que os itens se estendam verticalmente */
   }
 
+
   .pagina-inicial .overlap-wrapper-2 {
     background-color: #ffffff;
     overflow: hidden;
