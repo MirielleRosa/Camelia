@@ -12,12 +12,14 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import PaginaInicial from "./screens/PaginaInicial.vue";
 import Login from './screens/login.vue'; // Corrigi a importação para 'Login.vue'
+import Dashboard from './screens/Dashboard.vue'; 
 
 Vue.use(VueRouter);
 
 const routes = [
   { path: '/', component: PaginaInicial },
   { path: '/login', component: Login },
+  { path: '/dashboard', component: Dashboard },
 ];
 
 const router = new VueRouter({

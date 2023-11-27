@@ -1,0 +1,1 @@
+export { default as WeightFill6 } from "./WeightFill6.vue";

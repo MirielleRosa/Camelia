@@ -1,0 +1,1 @@
+export { default as WeightBold2 } from "./WeightBold2.vue";

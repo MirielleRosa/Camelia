@@ -1,3 +1,231 @@
 :root {
   --cream: rgba(255, 255, 221, 1);
 }
+:root {
+  --14-regular-font-family: "Inter-Regular", Helvetica;
+  --14-regular-font-size: 14px;
+  --14-regular-font-style: normal;
+  --14-regular-font-weight: 400;
+  --14-regular-letter-spacing: 0px;
+  --14-regular-line-height: 20px;
+  --18-regular-font-family: "Inter-Regular", Helvetica;
+  --18-regular-font-size: 18px;
+  --18-regular-font-style: normal;
+  --18-regular-font-weight: 400;
+  --18-regular-letter-spacing: 0px;
+  --18-regular-line-height: 24px;
+  --body-input-14px-r-font-family: "Poppins-Regular", Helvetica;
+  --body-input-14px-r-font-size: 14px;
+  --body-input-14px-r-font-style: normal;
+  --body-input-14px-r-font-weight: 400;
+  --body-input-14px-r-letter-spacing: 0px;
+  --body-input-14px-r-line-height: 22px;
+  --corner-radius-12: 12px;
+  --corner-radius-8: 8px;
+  --corner-radius-80: 80px;
+  --gray-100: rgba(241, 241, 241, 1);
+  --greywhite: rgba(255, 255, 255, 1);
+  --icon-size-16-duplicate: 16px;
+  --icon-size-28-duplicate: 28px;
+  --icon-size-40: 40px;
+  --light-black: rgba(17, 38, 60, 1);
+  --separator-light-default: rgba(236, 233, 241, 1);
+  --show-icon-show-icon: initial;
+  --show-text-show-text: initial;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-4: 4px;
+  --spacing-8-duplicate: 8px;
+  --spacing-radius-8: 8px;
+  --spacing-size-20: 20px;
+  --spacing-size-24: 24px;
+  --spacing-size-28: 28px;
+  --themes-black-10: rgba(28, 28, 28, 0.1);
+  --themes-black-100: rgba(28, 28, 28, 1);
+  --themes-black-20: rgba(28, 28, 28, 0.2);
+  --themes-black-40: rgba(28, 28, 28, 0.4);
+  --themes-black-5: rgba(28, 28, 28, 0.05);
+  --themes-primary-brand: rgba(28, 28, 28, 1);
+  --themes-secondary-blue: rgba(177, 227, 255, 1);
+  --themes-white-100: rgba(255, 255, 255, 1);
+  --themes-white-20: rgba(255, 255, 255, 0.2);
+  --themes-white-40: rgba(255, 255, 255, 0.4);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-spacing-mode="standard">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-spacing-mode="standard"] {
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-4: 4px;
+  --spacing-8-duplicate: 8px;
+  --spacing-size-20: 20px;
+  --spacing-size-24: 24px;
+  --spacing-size-28: 28px;
+}
+
+[data-spacing-mode="expanded-4"] {
+  --spacing-16: 20px;
+  --spacing-20: 24px;
+  --spacing-24: 28px;
+  --spacing-28: 32px;
+  --spacing-4: 8px;
+  --spacing-8-duplicate: 12px;
+  --spacing-size-20: 24px;
+  --spacing-size-24: 28px;
+  --spacing-size-28: 32px;
+}
+
+[data-spacing-mode="expanded-8"] {
+  --spacing-16: 24px;
+  --spacing-20: 28px;
+  --spacing-24: 32px;
+  --spacing-28: 36px;
+  --spacing-4: 12px;
+  --spacing-8-duplicate: 16px;
+  --spacing-size-20: 16px;
+  --spacing-size-24: 20px;
+  --spacing-size-28: 24px;
+}
+
+[data-spacing-mode="condensed-4"] {
+  --spacing-16: 12px;
+  --spacing-20: 16px;
+  --spacing-24: 20px;
+  --spacing-28: 24px;
+  --spacing-4: 0px;
+  --spacing-8-duplicate: 4px;
+  --spacing-size-20: 20px;
+  --spacing-size-24: 24px;
+  --spacing-size-28: 28px;
+}
+
+[data-corner-radius-mode="standard"] {
+  --corner-radius-12: 12px;
+  --corner-radius-8: 8px;
+  --corner-radius-80: 80px;
+}
+
+[data-corner-radius-mode="expanded-4"] {
+  --corner-radius-12: 16px;
+  --corner-radius-8: 12px;
+  --corner-radius-80: 84px;
+}
+
+[data-corner-radius-mode="expanded-8"] {
+  --corner-radius-12: 20px;
+  --corner-radius-8: 16px;
+  --corner-radius-80: 88px;
+}
+
+[data-corner-radius-mode="condensed-4"] {
+  --corner-radius-12: 8px;
+  --corner-radius-8: 4px;
+  --corner-radius-80: 76px;
+}
+
+[data-icon-size-mode="standard"] {
+  --icon-size-16-duplicate: 16px;
+  --icon-size-28-duplicate: 28px;
+  --icon-size-40: 40px;
+}
+
+[data-icon-size-mode="expanded-4"] {
+  --icon-size-16-duplicate: 20px;
+  --icon-size-28-duplicate: 32px;
+  --icon-size-40: 44px;
+}
+
+[data-icon-size-mode="expanded-8"] {
+  --icon-size-16-duplicate: 24px;
+  --icon-size-28-duplicate: 36px;
+  --icon-size-40: 48px;
+}
+
+[data-icon-size-mode="condensed-4"] {
+  --icon-size-16-duplicate: 12px;
+  --icon-size-28-duplicate: 24px;
+  --icon-size-40: 36px;
+}
+
+[data-themes-mode="pastel-light"] {
+  --themes-black-10: rgba(28, 28, 28, 0.1);
+  --themes-black-100: rgba(28, 28, 28, 1);
+  --themes-black-20: rgba(28, 28, 28, 0.2);
+  --themes-black-40: rgba(28, 28, 28, 0.4);
+  --themes-black-5: rgba(28, 28, 28, 0.05);
+  --themes-primary-brand: rgba(28, 28, 28, 1);
+  --themes-secondary-blue: rgba(177, 227, 255, 1);
+  --themes-white-100: rgba(255, 255, 255, 1);
+  --themes-white-20: rgba(255, 255, 255, 0.2);
+  --themes-white-40: rgba(255, 255, 255, 0.4);
+}
+
+[data-themes-mode="pastel-dark"] {
+  --themes-black-10: rgba(255, 255, 255, 0.1);
+  --themes-black-100: rgba(255, 255, 255, 1);
+  --themes-black-20: rgba(255, 255, 255, 0.2);
+  --themes-black-40: rgba(255, 255, 255, 0.4);
+  --themes-black-5: rgba(255, 255, 255, 0.1);
+  --themes-primary-brand: rgba(198, 199, 248, 1);
+  --themes-secondary-blue: rgba(177, 227, 255, 1);
+  --themes-white-100: rgba(28, 28, 28, 1);
+  --themes-white-20: rgba(28, 28, 28, 0.2);
+  --themes-white-40: rgba(28, 28, 28, 0.4);
+}
+
+[data-themes-mode="bright-light"] {
+  --themes-black-10: rgba(46, 52, 62, 0.1);
+  --themes-black-100: rgba(46, 52, 62, 1);
+  --themes-black-20: rgba(46, 52, 62, 0.2);
+  --themes-black-40: rgba(46, 52, 62, 0.4);
+  --themes-black-5: rgba(46, 52, 62, 0.05);
+  --themes-primary-brand: var(--themes-secondary-blue);
+  --themes-secondary-blue: rgba(24, 134, 254, 1);
+  --themes-white-100: rgba(255, 255, 255, 1);
+  --themes-white-20: rgba(255, 255, 255, 0.2);
+  --themes-white-40: rgba(255, 255, 255, 0.4);
+}
+
+[data-themes-mode="bright-dark"] {
+  --themes-black-10: rgba(255, 255, 255, 0.1);
+  --themes-black-100: rgba(255, 255, 255, 1);
+  --themes-black-20: rgba(255, 255, 255, 0.2);
+  --themes-black-40: rgba(255, 255, 255, 0.4);
+  --themes-black-5: rgba(255, 255, 255, 0.1);
+  --themes-primary-brand: var(--themes-secondary-blue);
+  --themes-secondary-blue: rgba(24, 134, 254, 1);
+  --themes-white-100: rgba(28, 28, 28, 1);
+  --themes-white-20: rgba(28, 28, 28, 0.2);
+  --themes-white-40: rgba(28, 28, 28, 0.4);
+}
+
+[data-show-text-mode="true"] {
+  --show-text-show-text: initial;
+}
+
+[data-show-text-mode="false"] {
+  --show-text-show-text: none;
+}
+
+[data-show-icon-mode="true"] {
+  --show-icon-show-icon: initial;
+}
+
+[data-show-icon-mode="false"] {
+  --show-icon-show-icon: none;
+}
