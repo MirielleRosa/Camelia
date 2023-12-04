@@ -1574,7 +1574,7 @@
 </template>
 <script>
   import { defineComponent } from "vue";
-
+  import PortalPopup from "../components/PortalPopup.vue";
   export default defineComponent({
     name: "PaginaInicial",
     methods: {

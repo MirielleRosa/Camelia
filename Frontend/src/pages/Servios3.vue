@@ -1284,6 +1284,7 @@
 <script>
   import { defineComponent } from "vue";
   import PopUpSair from "../components/PopUpSair.vue";
+  import PortalPopup from "../components/PortalPopup.vue";
 
   export default defineComponent({
     name: "Servios3",

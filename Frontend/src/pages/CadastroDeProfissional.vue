@@ -300,6 +300,7 @@
 <script>
   import { defineComponent } from "vue";
   import RecadoCadastroProfissional from "../components/RecadoCadastroProfissional.vue";
+  import PortalPopup from "../components/PortalPopup.vue";
 
   export default defineComponent({
     name: "CadastroDeProfissional",
