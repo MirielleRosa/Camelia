@@ -68,11 +68,9 @@
       @click="onBotaoSairContainerClick"
     >
       <div
-        class="absolute top-[0px] left-[0px] bg-grey-white w-[347px] h-[57px]"
-      />
+        class="absolute top-[0px] left-[0px] bg-grey-white w-[347px] h-[57px]" />
       <div
-        class="absolute top-[10px] left-[30px] font-light flex items-center w-7 h-9"
-      >
+        class="absolute top-[10px] left-[30px] font-light flex items-center w-7 h-9" >
         Sair
       </div>
     </div>
@@ -93,7 +91,7 @@
         this.$router.push("/meu-perfil");
       },
       onBotaoSairContainerClick() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
     },
   });

@@ -646,7 +646,7 @@
         this.$router.push("/dashboard-profissional-configuraes1");
       },
       onGroupContainer5Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
     },
   });
