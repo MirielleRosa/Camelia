@@ -1442,8 +1442,7 @@
               <img
                 class="absolute top-[5px] left-[22px] w-[50px] h-[50px] overflow-hidden"
                 alt=""
-                src="/image16.svg"
-              />
+                src="/image16.svg" />
               <div
                 class="absolute top-[58px] left-[22px] leading-[13px] inline-block w-[49px]"
               >
