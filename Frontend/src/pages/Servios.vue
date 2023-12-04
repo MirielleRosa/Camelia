@@ -494,10 +494,10 @@
         this.$router.push("/sobre");
       },
       onButtonTopContainerClick() {
-        this.$router.push("/logincliente");
+        this.$router.push("/");
       },
       onGroup71Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
       onSejaUmProfissionalClick() {
         this.$router.push("/cadastro-de-profissional");
@@ -506,7 +506,7 @@
         this.$router.push("/sobre");
       },
       onGroupContainer22Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
     },
   });

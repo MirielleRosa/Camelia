@@ -125,7 +125,7 @@
 
     methods: {
       onGroup71Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
       onServiosTextClick() {
         this.$router.push("/servios");
@@ -137,7 +137,7 @@
         this.$router.push("/sobre");
       },
       onGroupContainer1Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
       onGroupContainer4Click() {
         this.$router.push("/tela-inicial-cliente");

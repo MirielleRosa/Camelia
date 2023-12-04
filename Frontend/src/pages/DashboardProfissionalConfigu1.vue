@@ -105,11 +105,7 @@
           >
             Ajuda
           </div>
-          <img
-            class="absolute top-[12px] left-[44px] w-6 h-6 overflow-hidden opacity-[0.9]"
-            alt=""
-            src="/line-22.svg"
-          />
+          
           <img
             class="absolute h-[41.67%] w-[8.33%] top-[32.92%] right-[80.83%] bottom-[25.42%] left-[10.83%] max-w-full overflow-hidden max-h-full"
             alt=""
@@ -443,11 +439,14 @@
     </div>
     <div class="absolute top-[937px] left-[441px] w-[512px] h-[152.3px]">
       <div class="absolute top-[0px] left-[0px] w-[512px] h-[152.3px]">
+        
         <div class="absolute top-[72px] left-[0px] w-[512px] h-[80.3px]">
           <div
             class="absolute top-[0px] left-[0px] rounded-lg bg-grey-white box-border w-[512px] h-[80.3px] border-[1px] border-solid border-lightgray-200"
           />
+          <img class="relative w-[24.7px] left-[450px] top-[25px] h-[24.7px]" alt="" src="/icon14.svg" />
         </div>
+        
         <div
           class="absolute w-[83.69%] top-[calc(50%_-_76.15px)] right-[16.31%] left-[0%] h-[41.8px]"
         >
@@ -462,7 +461,7 @@
           </div>
         </div>
       </div>
-      <img class="relative w-[24.7px] h-[24.7px]" alt="" src="/icon14.svg" />
+     
     </div>
     <div class="absolute top-[947px] left-[1083px] w-[512px] h-[129.3px]">
       <div class="absolute top-[0px] left-[0px] w-[512px] h-[129.3px]">

@@ -1593,7 +1593,6 @@
 <script>
   import { defineComponent } from "vue";
   import PopUpSair from "../components/PopUpSair.vue";
-  import PortalPopup from "../components/PortalPopup.vue";
 
   export default defineComponent({
     name: "PaginaInicialCliente",
@@ -1609,7 +1608,7 @@
         this.$router.push("/servios1");
       },
       onGroup71Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
       onGroupContainer15Click() {
         this.$router.push("/tela-inicial-cliente");

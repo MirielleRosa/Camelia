@@ -105,11 +105,6 @@
             Ajuda
           </div>
           <img
-            class="absolute top-[12px] left-[44px] w-6 h-6 overflow-hidden opacity-[0.9]"
-            alt=""
-            src="/line-22.svg"
-          />
-          <img
             class="absolute h-[41.67%] w-[8.33%] top-[32.92%] right-[80.83%] bottom-[25.42%] left-[10.83%] max-w-full overflow-hidden max-h-full"
             alt=""
             src="/vector1.svg"
