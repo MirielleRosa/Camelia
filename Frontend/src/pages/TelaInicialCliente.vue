@@ -2,9 +2,9 @@
   <div
     class="relative bg-grey-white w-full h-[1203px] overflow-hidden text-center text-xl text-gray1-1500 font-roboto"
   >
-    <div class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px]">
+    <div class="absolute top-[32px] left-[-11px] w-[100%] h-[119px]">
       <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
+        class="absolute top-[28px] left-[45%] flex flex-row items-start justify-start gap-[50px]"
       >
         <div class="relative cursor-pointer" @click="onIncioTextClick">
           Início
@@ -20,7 +20,7 @@
         @click="onGroup71Click"
       />
       <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
+        class="absolute top-[118.5px] left-[-0.5px] box-border w-[100%] h-px border-t-[1px] border-solid border-gray1-1500"
       />
     </div>
     <div
@@ -28,7 +28,7 @@
     >
       Meus Pedidos
     </div>
-    <div class="absolute top-[60px] left-[867px] w-[134px] h-[32.5px]">
+    <div class="absolute top-[60px] right-[37%] w-[134px] h-[32.5px]">
       <div class="absolute top-[0px] left-[4px]">Meus Pedidos</div>
       <img
         class="absolute top-[32px] left-[0px] w-[134px] h-px"
@@ -72,7 +72,7 @@
       </div>
     </div>
     <div
-      class="absolute top-[1082px] left-[458px] flex flex-row items-center justify-start gap-[30px] text-left text-mini text-grey-white font-regular"
+      class="absolute top-[1082px] right-[37%] flex flex-row items-center justify-start gap-[30px] text-left text-mini text-grey-white font-regular"
     >
       <div class="relative w-[99px] h-[75px] text-5xl font-judson">
         <img
@@ -103,34 +103,34 @@
       </div>
     </div>
     <img
-      class="absolute top-[411px] left-[600px] w-[200px] h-[52px] object-cover"
+      class="absolute top-[411px] left-[45%] w-[200px] h-[52px] object-cover"
       alt=""
       src="/image54@2x.png"
     />
     <img
-      class="absolute top-[480px] left-[641px] w-[200px] h-[52px] object-cover"
+      class="absolute top-[480px] left-[50%] w-[200px] h-[52px] object-cover"
       alt=""
       src="/image54@2x.png"
     />
     <img
-      class="absolute top-[549px] left-[600px] w-[200px] h-[53px] object-cover"
+      class="absolute top-[549px] left-[45%] w-[200px] h-[53px] object-cover"
       alt=""
       src="/image55@2x.png"
     />
     <div
-      class="absolute top-[662px] left-[529px] leading-[16px] inline-block w-[363px] h-[21px]"
+      class="absolute top-[662px] left-[42%] leading-[16px] inline-block w-[363px] h-[21px]"
     >
       Nenhum pedido aberto
     </div>
     <div
-      class="absolute top-[711px] left-[216px] text-base leading-[24px] text-darkgray-600 inline-block w-[966px] h-[63px]"
+      class="absolute top-[711px] left-[25%] text-base leading-[24px] text-darkgray-600 inline-block w-[966px] h-[63px]"
     >
       Que tal escolhermos um serviço e abrirmos um pedido para receber
       orçamentos? Lembrando que é totalmente sem compromisso e você só paga após
       o serviço ser realizado!
     </div>
     <div
-      class="absolute top-[839px] left-[624px] text-base leading-[24px] font-quicksand text-grey-white inline-block w-[150px] h-8"
+      class="absolute top-[839px] left-[60%] text-base leading-[24px] font-quicksand text-grey-white inline-block w-[150px] h-8"
     >
       Explorar serviços
     </div>
@@ -140,10 +140,10 @@
     >
       <div class="absolute top-[0px] left-[0px] w-[449px] h-[80.3px]">
         <div
-          class="absolute top-[0px] left-[0px] rounded-xl bg-gray1-1500 w-[449px] h-[80.3px]"
+          class="absolute top-[0px] left-[65%] rounded-xl bg-gray1-1500 w-[449px] h-[80.3px]"
         />
         <div
-          class="absolute w-[86.19%] top-[calc(50%_-_14.15px)] left-[6.9%] tracking-[0.25px] leading-[28px] inline-block h-7"
+          class="absolute w-[86.19%] top-[calc(50%_-_14.15px)] left-[70%] tracking-[0.25px] leading-[28px] inline-block h-7"
         >
           EXPLORAR SEVIÇOS
         </div>
@@ -168,14 +168,14 @@
         Cancelados (0)
       </div>
     </div>
-    <div class="absolute top-[32px] left-[1142px] w-[236px] h-[65px] text-6xl">
+    <div class="absolute top-[32px] left-[80%] w-[236px] h-[65px] text-6xl">
       <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
         <div class="absolute top-[23px] left-[97px]">Francisco</div>
         <div
           class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
         />
         <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
+          class="absolute top-[0px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
         >
           F
         </div>
@@ -188,17 +188,7 @@
       />
     </div>
     <div class="absolute top-[32px] left-[1142px] w-[206px] h-[65px] text-6xl">
-      <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
-        <div class="absolute top-[23px] left-[97px]">Francisco</div>
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
-        >
-          F
-        </div>
-      </div>
+     
     </div>
   </div>
   <div v-if="isPopUpSairOpen">

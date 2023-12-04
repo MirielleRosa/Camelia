@@ -2,9 +2,9 @@
   <div
     class="relative bg-grey-white w-full h-[1739px] overflow-hidden text-center text-xl text-gray1-1500 font-roboto"
   >
-    <div class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px]">
+    <div class="absolute top-[32px] left-[-11px] w-[100%] h-[119px]">
       <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
+        class="absolute top-[28px] left-[40%] flex flex-row items-start justify-start gap-[50px]"
       >
         <div class="relative cursor-pointer" @click="onIncioTextClick">
           Início
@@ -20,10 +20,10 @@
         @click="onGroup71Click"
       />
       <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
+        class="absolute top-[118.5px] left-[-0.5px] box-border w-[100%] h-px border-t-[1px] border-solid border-gray1-1500"
       />
     </div>
-    <div class="absolute top-[60px] left-[867px] w-[134px] h-[32.5px]">
+    <div class="absolute top-[60px] left-[50%] w-[134px] h-[32.5px]">
       <div class="absolute top-[0px] left-[4px]">Meus Pedidos</div>
       <img
         class="absolute top-[32px] left-[0px] w-[134px] h-px"
@@ -67,7 +67,7 @@
       </div>
     </div>
     <div
-      class="absolute top-[32px] left-[1142px] w-[244.5px] h-[65px] text-6xl"
+      class="absolute top-[32px] left-[80%] w-[244.5px] h-[65px] text-6xl"
     >
       <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
         <div class="absolute top-[23px] left-[97px]">Francisco</div>
@@ -87,29 +87,14 @@
         :onClick="openPopUpSair"
       />
     </div>
-    <div class="absolute top-[32px] left-[1142px] w-[206px] h-[65px] text-6xl">
-      <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
-        <div class="absolute top-[23px] left-[97px]">Francisco</div>
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
-        >
-          F
-        </div>
-      </div>
-    </div>
+    
     <img
       class="absolute top-[252px] left-[492px] w-6 h-6"
       alt=""
       src="/vuesaxbrokenprofilecircle.svg"
     />
     <div
-      class="absolute top-[1621px] left-[437px] flex flex-row items-center justify-start gap-[30px] text-left text-mini text-grey-white font-regular"
+      class="absolute top-[1621px] left-[40%] flex flex-row items-center justify-start gap-[30px] text-left text-mini text-grey-white font-regular"
     >
       <div class="relative w-[99px] h-[75px] text-5xl font-judson">
         <img
@@ -140,14 +125,14 @@
       </div>
     </div>
     <div
-      class="absolute top-[427px] left-[75px] w-[1282px] h-[1153px] text-16xl text-darkslategray-300"
+      class="absolute top-[427px] left-[25%] w-[1282px] h-[1153px] text-16xl text-darkslategray-300"
     >
       <div
         class="absolute top-[0px] left-[0px] rounded-4xs bg-grey-white box-border w-[1282px] h-[1070px] border-[1px] border-solid border-whitesmoke-600"
       />
       <div class="absolute top-[2px] left-[2px] w-[1277px] h-[188px]">
         <div
-          class="absolute top-[0px] left-[0px] rounded-4xs bg-grey-white w-[1277px] h-[188px]"
+          class="absolute top-[0px] left-[40%] rounded-4xs bg-grey-white w-[1277px] h-[188px]"
         />
         <img
           class="absolute top-[65px] left-[1154px] rounded-4xs w-[60px] h-[53px] overflow-hidden cursor-pointer"
@@ -195,11 +180,7 @@
             >
               Você tem configurações pendentes
             </div>
-            <img
-              class="absolute top-[136px] left-[147px] rounded-4xs w-[29px] h-[32.5px]"
-              alt=""
-              src="/vuesaxbolddanger.svg"
-            />
+            
           </div>
         </div>
         <img
@@ -233,11 +214,7 @@
               >
                 Preferências e Controle do uso de Seus Dados
               </div>
-              <img
-                class="absolute top-[135px] left-[154px] rounded-4xs w-[29px] h-[32.5px]"
-                alt=""
-                src="/line-22.svg"
-              />
+             
             </div>
           </div>
           <img
@@ -278,11 +255,8 @@
                 >
                   Escolha que tipo de comunicação você quer receber
                 </div>
-                <img
-                  class="absolute top-[135px] left-[154px] rounded-4xs w-[29px] h-[32.5px]"
-                  alt=""
-                  src="/line-22.svg"
-                />
+               
+
               </div>
             </div>
             <img
@@ -327,18 +301,10 @@
                   >
                     Cartões salvos na sua conta
                   </div>
-                  <img
-                    class="absolute top-[135px] left-[154px] rounded-4xs w-[29px] h-[32.5px]"
-                    alt=""
-                    src="/line-22.svg"
-                  />
+                
                 </div>
               </div>
-              <img
-                class="absolute top-[267px] left-[121px] rounded-4xs w-[29px] h-[39px]"
-                alt=""
-                src="/line-22.svg"
-              />
+             
             </div>
           </div>
           <img
@@ -350,10 +316,10 @@
       </div>
     </div>
     <div
-      class="absolute top-[200px] left-[77px] w-[1282px] h-[178px] text-16xl text-darkslategray-100"
+      class="absolute top-[200px] left-[25%] w-[1282px] h-[178px] text-16xl text-darkslategray-100"
     >
       <div
-        class="absolute top-[0px] left-[0px] rounded-lg bg-grey-white box-border w-[1282px] h-[178px] border-[1px] border-solid border-whitesmoke-600"
+        class="absolute top-[0px] left-[0%] rounded-lg bg-grey-white box-border w-[1282px] h-[178px] border-[1px] border-solid border-whitesmoke-600"
       />
       <div
         class="absolute top-[46px] left-[202.3px] leading-[30px] inline-block w-[353.2px]"
