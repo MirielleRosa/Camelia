@@ -46,13 +46,10 @@ app.get('/login', (req, res) => {
     try {
       const usuarios = JSON.parse(data);
 
-      // Verifica se há pelo menos um usuário no array
       if (usuarios.length > 0) {
-        // Tenta encontrar um usuário com as credenciais fornecidas
         const usuarioEncontrado = usuarios.find(user => user.email === email && user.senha === senha);
 
         if (usuarioEncontrado) {
-          // Se encontrou o usuário, retorna os detalhes do usuário
           return res.json({
             message: 'Login válido',
             loginValido: true,

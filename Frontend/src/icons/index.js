@@ -1,1 +1,0 @@
-export { WeightLight } from "./WeightLight";

@@ -1,1 +1,0 @@
-export { default as WeightLight5 } from "./WeightLight5";
