@@ -76,7 +76,6 @@
         class="absolute top-[42px] left-[461px] w-[129px] h-[99px] overflow-hidden cursor-pointer"
         alt=""
         src="/group-7-2.svg"
-        @click="onGroup72Click"
       />
     </div>
     <div
@@ -90,7 +89,6 @@
       >
         <div
           class="relative w-[99px] h-[75px] cursor-pointer text-5xl font-judson"
-          @click="onGroupContainer3Click"
         >
           <img
             class="absolute top-[50.5px] left-[13.5px] w-[61px] h-[25.1px]"
@@ -125,10 +123,10 @@
     name: "Sobre",
     methods: {
       onGroup72Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
       onGroupContainer3Click() {
-        this.$router.push("/pagina-inicial");
+        this.$router.push("/");
       },
     },
   });

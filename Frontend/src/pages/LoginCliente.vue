@@ -3,21 +3,19 @@
     class="relative bg-grey-white w-full h-[1024px] overflow-hidden text-left text-xl text-darkslategray-400 font-roboto"
   >
     <img
-      class="absolute top-[180px]  left-[850px] rounded-tl-8xs rounded-tr-none rounded-b-none w-[720px] h-[892px] object-cover"
+      class="absolute top-[82px] left-[60%] rounded-tl-8xs rounded-tr-none rounded-b-none w-[720px] h-[892px] object-cover"
       alt=""
       src="/tiroisoladodesorridentefaztudocaucasianoenvelhecidocombarbaporfazeroumontadorusandocapacetedesegurancaeoculosusandorebarbadoraparacorteemoagemtrabalhopesadoconstrucaoeconceitode-2@2x.png"
     />
     <div
-      class="absolute h-[calc(100%_-_564.9px)] w-[calc(100%_-_801px)] top-[261px] right-[765px] bottom-[303.9px] left-[36px] text-mini"
+      class="absolute h-[calc(100%_-_564.9px)] w-[calc(100%_-_801px)] top-[261px] right-[765px] bottom-[303.9px] left-[15%] text-mini"
     >
       <div
-        class="absolute top-[392.1px] left-[160.1px] leading-[19px] [display:-webkit-inline-box] items-center overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical] w-[316px]"
+        class="absolute top-[392.1px] left-[15%] leading-[19px] [display:-webkit-inline-box] items-center overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical] w-[316px]"
       >
         Não possui uma conta? Crie agora mesmo.
       </div>
-      <div
-        class="absolute top-[436.6px] left-[318.6px] box-border w-[74px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
+      
       <div
         class="absolute top-[0px] left-[0px] w-[639px] h-[63px] flex flex-row items-start justify-center text-13xl text-gray1-1500"
       >
@@ -27,13 +25,13 @@
       </div>
     </div>
     <img
-      class="absolute top-[33px] left-[99px] w-[129px] h-[99px] overflow-hidden cursor-pointer"
+      class="absolute top-[10px] left-[99px] w-[129px] h-[99px] overflow-hidden cursor-pointer"
       alt=""
       src="/group-7-11.svg"
       @click="onGroup71Click"
     />
     <div
-      class="absolute top-[69px] left-[454px] w-[626px] h-[26px] text-center text-gray1-1500"
+      class="absolute top-[29px] left-[35%] w-[626px] h-[26px] text-center text-gray1-1500"
     >
       <div class="absolute top-[0px] left-[0px] w-[626px] h-[26px]">
         <div
@@ -63,33 +61,34 @@
       </div>
     </div>
     <div
-      class="absolute top-[367px] left-[117px] w-[560.4px] h-[441.1px] text-gray1-1000"
+      class="absolute top-[367px] left-[18%] w-[560.4px] h-[441.1px] text-gray1-1000"
     >
     <button class="absolute top-[360.5px] left-[4.1px] w-[556.3px] h-[80.7px] cursor-pointer text-center text-grey-white relative" @click="verificarLogin()">
   <div class="absolute top-0 left-0 w-full h-full rounded-xl bg-gray1-1500"></div>
-  <span class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">
+  <span class="absolute w-86.05% top-[35%] left-[45%] inline-block tracking-[0.25px] text-center leading-[28px] text-white">
     ENTRAR
   </span>
 </button>
 
-      <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px]">
-        <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px]">
+
+      <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
+        <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
           <div
-            class="absolute top-[0px] left-[0px] rounded-xl bg-grey-white box-border w-[556.1px] h-[96.2px] border-[1px] border-solid border-lightgray-500"
+            class="absolute top-[0px] left-[0px] rounded-xl bg-grey-white box-border border-gray-300 w-[556.1px] h-[96.2px] border-[1px] border-solid border-lightgray-500"
           />
         </div>
         <div
-          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[15.46%] left-[5.88%] h-[50.1px]"
+          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[15.46%] left-[8.88%] h-[50.1px]"
         >
         
-          <input v-model="email" class="absolute w-full top-[calc(50%_-_25.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px]" type="email" placeholder="E-mail">
+          <input v-model="email" class="absolute w-full top-[calc(50%_-_35.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px]" type="email" placeholder="E-mail">
           
         </div>
       </div>
       <div class="absolute top-[144.9px] left-[1px] w-[556.1px] h-[96.2px]">
-        <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px]">
+        <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
           <div
-            class="absolute top-[0px] left-[0px] rounded-xl bg-grey-white box-border w-[556.1px] h-[96.2px] border-[1px] border-solid border-lightgray-500"
+            class="absolute top-[0px] left-[0px] rounded-xl bg-grey-white box-border border-gray-300 w-[556.1px] h-[96.2px] border-[1px] border-solid border-lightgray-500"
           />
         </div>
         <div
