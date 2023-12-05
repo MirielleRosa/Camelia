@@ -49,7 +49,7 @@
             src="/tab.svg"
           />
           <div
-            class="absolute top-[calc(50%_-_7.5px)] left-[71px] leading-[100%]"
+            class="absolute top-[calc(50%_-_7.5px)] left-[71px] leading-[100%] cursor-pointer " @click="onNavLinksDark2ClickDashboard()"
           >
             Dashboard
           </div>
@@ -262,10 +262,10 @@
       </div>
     </div>
     <div
-      class="absolute top-[68px] left-[313px] w-[1127px] h-[1135px] text-center text-sm text-black-40 font-regular"
+      class="absolute top-[68px] left-[313px] w-[100%] h-[1135px] text-center text-sm text-black-40 font-regular"
     >
       <div
-        class="absolute top-[1.1px] left-[0px] rounded-8xs bg-grey-white shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[1127px] h-[1133.9px]"
+        class="absolute top-[1.1px] left-[0px] rounded-8xs bg-grey-white shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[100%] h-[1133.9px]"
       />
       <div
         class="absolute w-full top-[104.4px] right-[0px] left-[0px] box-border h-[17.1px] overflow-hidden flex flex-row items-center justify-between py-boundvariablesdata4 px-boundvariablesdata3 border-b-[1px] border-solid border-black-10"
@@ -310,7 +310,7 @@
               <div
                 class="rounded-boundvariablesdata1 flex flex-col items-start justify-center"
               >
-                <div class="self-stretch relative leading-[20px]">
+                <div class="self-stretch relative leading-[20px]" >
                   Dashboards
                 </div>
               </div>
@@ -422,7 +422,7 @@
         </div>
       </div>
       <div
-        class="absolute top-[0px] left-[0px] w-[1121.7px] h-[117.2px] flex flex-row items-start justify-start gap-[15px] text-base text-gray1-1500 font-roboto"
+        class="absolute top-[0px] left-[0px] w-[100%] h-[117.2px] flex flex-row items-start justify-start gap-[105px] text-base text-gray1-1500 font-roboto"
       >
         <div class="relative w-[166px] h-[110px]">
           <div
@@ -517,20 +517,14 @@
           />
         </div>
       </div>
-      <div
-        class="absolute top-[121px] left-[1115px] rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-gray1-300 box-border w-3 h-[1014px] border-r-[1px] border-solid border-grey-white border-l-[1px]"
-      >
-        <div
-          class="absolute top-[12px] left-[calc(50%_-_3px)] rounded-81xl bg-lightgray-100 w-1.5 h-[379px]"
-        />
-      </div>
+     
     </div>
-    <div class="absolute top-[238px] left-[346px] w-[1038px] h-[747px]">
+    <div class="absolute top-[238px] left-[346px] w-[100%] h-[747px]">
       <div
         class="absolute top-[1px] left-[0px] bg-mediumaquamarine-100 w-[35px] h-[223px]"
       />
       <div
-        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[1019px] h-[223px]"
+        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[100%] h-[223px]"
       />
       <img
         class="absolute top-[549px] left-[65px] w-[200px] h-[198px] object-cover"
@@ -538,28 +532,21 @@
         src="/rectangle-54@2x.png"
       />
     </div>
-    <div class="absolute top-[774px] left-[346px] w-[1038px] h-56">
+    <div class="absolute top-[774px] left-[346px] w-[100%] h-56">
       <div
         class="absolute top-[1px] left-[0px] bg-mediumaquamarine-100 w-[35px] h-[223px]"
       />
       <div
-        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[1019px] h-[223px]"
+        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[100%] h-[223px]"
       />
     </div>
-    <div class="absolute top-[1042px] left-[346px] w-[1038px] h-56">
+    
+    <div class="absolute top-[506px] left-[346px] w-[100%] h-56">
       <div
         class="absolute top-[1px] left-[0px] bg-mediumaquamarine-100 w-[35px] h-[223px]"
       />
       <div
-        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[1019px] h-[223px]"
-      />
-    </div>
-    <div class="absolute top-[506px] left-[346px] w-[1038px] h-56">
-      <div
-        class="absolute top-[1px] left-[0px] bg-mediumaquamarine-100 w-[35px] h-[223px]"
-      />
-      <div
-        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[1019px] h-[223px]"
+        class="absolute top-[0px] left-[19px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[100%] h-[223px]"
       />
     </div>
     <img
@@ -571,11 +558,6 @@
       class="absolute top-[787px] left-[397px] w-[200px] h-[194px] object-cover"
       alt=""
       src="/image-3@2x.png"
-    />
-    <img
-      class="absolute top-[1057px] left-[395px] w-[200px] h-[194px] object-cover"
-      alt=""
-      src="/image-4@2x.png"
     />
     <img
       class="absolute top-[521px] left-[397px] w-[200px] h-[194px] object-cover"
@@ -596,9 +578,9 @@
     </div>
     <div class="absolute top-[390px] left-[1116px] rounded-lg" />
     <div
-      class="absolute w-[calc(100%_-_1336px)] top-[404px] right-[101px] left-[1235px] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
+      class="absolute w-[calc(100%_-_1336px)] top-[404px] right-[101px] left-[46%] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
     />
-    <div class="absolute top-[34%] left-[87.36%] text-mini text-color-7">
+    <div class="absolute top-[34%] left-[48%] text-mini text-color-7">
       Detalhes
     </div>
     <b
@@ -614,9 +596,9 @@
       Anna Kathy
     </div>
     <div
-      class="absolute w-[calc(100%_-_1336px)] top-[676.4px] right-[101px] left-[1235px] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
+      class="absolute w-[calc(100%_-_1336px)] top-[676.4px] right-[101px] left-[46%] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
     />
-    <div class="absolute top-[56.64%] left-[87.29%] text-mini text-color-7">
+    <div class="absolute top-[56.64%] left-[48%] text-mini text-color-7">
       Detalhes
     </div>
     <b
@@ -632,29 +614,9 @@
       Anna Kathy
     </div>
     <div
-      class="absolute w-[calc(100%_-_1336px)] top-[941.4px] right-[101px] left-[1235px] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
+      class="absolute w-[calc(100%_-_1336px)] top-[941.4px] right-[101px] left-[46%] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
     />
-    <div class="absolute top-[78.67%] left-[87.29%] text-mini text-color-7">
-      Detalhes
-    </div>
-    <b
-      class="absolute top-[89.03%] left-[45.84%] text-5xl [transform:_rotate(0.18deg)] [transform-origin:0_0]"
-      >Aplicação de argamassa</b
-    >
-    <div class="absolute top-[92.14%] left-[45.83%] font-roboto">Periodo :</div>
-    <div class="absolute top-[94.46%] left-[45.83%] font-roboto">Cliente:</div>
-    <div class="absolute top-[92.14%] left-[50.9%] text-gray1-800">
-      3 Outubro 2020 a 6 de Outubro de 2020
-    </div>
-    <div class="absolute top-[94.46%] left-[50.9%] text-gray1-800">
-      Anna Kathy
-    </div>
-    <div
-      class="absolute w-[calc(100%_-_1336px)] top-[1189.4px] right-[101px] left-[1235px] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
-    />
-    <div class="absolute top-[99.29%] left-[87.29%] text-mini text-color-7">
-      Detalhes
-    </div>
+    <div class="absolute top-[78.64%] left-[48%] text-mini text-color-7"> Detalhes </div>
   </div>
 </template>
 <script>
@@ -671,6 +633,9 @@
       },
       onNavLinksDark4Click() {
         this.$router.push("/dashboard-profissional-configuraes1");
+      },
+      onNavLinksDark2ClickDashboard() {
+        this.$router.push("/dashboard-profissional");
       },
     },
   });

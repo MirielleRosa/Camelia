@@ -38,13 +38,11 @@
       <div class="absolute top-[0px] left-[0px] w-[626px] h-[26px]">
         <div
           class="absolute top-[0px] left-[109px] cursor-pointer"
-          @click="onServiosTextClick"
         >
           Serviços
         </div>
         <div
           class="absolute top-[0px] left-[247px] cursor-pointer"
-          @click="onSejaUmProfissionalClick"
         >
           Seja um profissional
         </div>
