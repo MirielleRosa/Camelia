@@ -93,23 +93,23 @@
           />
         </div>
         <div
-          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[17.68%] left-[3.67%] h-[50.1px]"
+          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[17.68%] left-[8.67%] h-[50.1px]"
         >
         <input v-model="senha" class="absolute w-full top-[calc(50% - 25.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px] bg-transparent" type="password" placeholder="Senha" style="caret-color: transparent;">
                   </div>
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
   import { defineComponent } from "vue";
   import axios from 'axios';
-
+  import DialogBox from 'vue3-dialog';
 
   export default defineComponent({
     name: "LoginCliente",
-
     data() {
       return {
         email: '',
@@ -160,6 +160,7 @@
         }
       } else {
         this.errorMessage = response.data.message;
+        alert('E-mail ou senha incorretos'); // Adicionado alerta aqui
       }
     })
     .catch(error => {
@@ -168,9 +169,11 @@
       if (error.response) {
         console.error('Dados da Resposta do Servidor:', error.response.data);
         this.errorMessage = 'Erro de login: ' + error.response.data.message;
+        alert('Erro de login: ' + error.response.data.message); // Adicionado alerta aqui
       }
     });
 },
+  
     },
 
 
