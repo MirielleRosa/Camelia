@@ -658,6 +658,7 @@
         class="absolute w-[calc(100%_-_16.7px)] top-[0px] right-[16.7px] left-[0px] rounded bg-mediumturquoise h-1"
       />
     </div>
+    
     <div
       class="absolute top-[1688px] left-[825px] leading-[24px] flex items-center w-[13px] h-6"
     >
@@ -696,6 +697,7 @@
       class="absolute top-[1756px] left-[825px] leading-[24px] flex items-center w-[13px] h-6"
     >
       2
+
     </div>
     <div
       class="absolute top-[1787px] left-[825px] leading-[24px] flex items-center w-[13px] h-6"
@@ -716,7 +718,7 @@
       src="/icon9.svg"
     />
     <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_443px)] right-[275px] left-[919px] rounded bg-whitesmoke-400 h-1"
+      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_443px)] right-[275px] left-[887px] rounded bg-whitesmoke-400 h-1"
     >
       <div
         class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[89.7px] left-[887px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
@@ -740,12 +742,12 @@
     <div
       class="absolute top-[1758px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
     >
-      2
+      0
     </div>
     <div
       class="absolute top-[1791px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
     >
-      1
+      0
     </div>
     <div
       class="absolute top-[3543px] left-[90px] text-sm leading-[20px] text-steelblue-100 flex items-center w-[83px] h-5"
