@@ -86,7 +86,6 @@
           
         </div>
       </div>
-      
       <div class="absolute top-[144.9px] left-[1px] w-[556.1px] h-[96.2px]">
         <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
           <div
@@ -101,16 +100,16 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
   import { defineComponent } from "vue";
   import axios from 'axios';
-  import DialogBox from 'vue3-dialog';
+
 
   export default defineComponent({
     name: "LoginCliente",
+
     data() {
       return {
         email: '',
@@ -161,7 +160,6 @@
         }
       } else {
         this.errorMessage = response.data.message;
-        alert('E-mail ou senha incorretos'); // Adicionado alerta aqui
       }
     })
     .catch(error => {
@@ -170,11 +168,9 @@
       if (error.response) {
         console.error('Dados da Resposta do Servidor:', error.response.data);
         this.errorMessage = 'Erro de login: ' + error.response.data.message;
-        alert('Erro de login: ' + error.response.data.message); // Adicionado alerta aqui
       }
     });
 },
-  
     },
 
 
