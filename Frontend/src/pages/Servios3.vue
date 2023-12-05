@@ -6,10 +6,10 @@
       class="absolute top-[32px] left-[-11px] w-[100%] h-[119px] text-center text-gray1-1500"
     >
       <div
-        class="absolute top-[57.5px] left-[759.5px] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
+        class="absolute top-[57.5px] left-[49%] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
       />
       <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
+        class="absolute top-[28px] left-[44%] flex flex-row items-start justify-start gap-[50px]"
       >
         <div class="relative">Início</div>
         <div class="relative">Serviços</div>
@@ -25,7 +25,7 @@
     </div>
    
     <div
-      class="absolute top-[60px] left-[866px] w-[127px] h-[23px] cursor-pointer text-center text-gray1-1500"
+      class="absolute top-[60px] left-[55%] w-[127px] h-[23px] cursor-pointer text-center text-gray1-1500"
       @click="onGroupContainer2Click"
     >
       <div class="absolute top-[0px] left-[0px]">Meus Pedidos</div>
@@ -215,7 +215,7 @@
       class="absolute w-full right-[-72px] bottom-[-1185px] left-[72px] h-[329.6px] text-mini text-grey-white font-regular"
     >
       <div
-        class="absolute w-full right-[0px] bottom-[0px] left-[0px] bg-gray1-1500 h-[329.6px]"
+        class="absolute w-full right-[0px] bottom-[0px] left-[0px] bg-gray1-1500 h-[339.6px]"
       />
       <div
         class="absolute top-[49.6px] left-[384px] h-[143.7px] flex flex-row items-center justify-start gap-[30px]"
@@ -246,23 +246,9 @@
         <div class="relative leading-[19px]">Sobre</div>
       </div>
     </div>
+    
     <div
-      class="absolute top-[39px] left-[1173px] w-[206px] h-[65px] text-center text-6xl text-gray1-1500"
-    >
-      <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
-        <div class="absolute top-[23px] left-[97px]">Francisco</div>
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
-        >
-          F
-        </div>
-      </div>
-    </div>
-    <div
-      class="absolute top-[39px] left-[1173px] w-[238px] h-[65px] cursor-pointer text-center text-6xl text-gray1-1500"
+      class="absolute top-[39px] left-[80%] w-[238px] h-[65px] cursor-pointer text-center text-6xl text-gray1-1500"
       :onClick="openPopUpSair1"
     >
       <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
@@ -465,10 +451,10 @@
       Você ainda não será cobrado
     </div>
     <div
-      class="absolute top-[1016px] left-[56px] w-[1176px] h-[588px] text-base"
+      class="absolute top-[1016px] left-[10%] w-[100%] h-[588px] text-base"
     >
       <div
-        class="absolute top-[0px] left-[1.2px] text-13xl leading-[48px] font-medium text-gray1-1300 flex items-center w-[972.9px] h-[51.2px]"
+        class="absolute top-[0px] left-[1.2px] text-13xl leading-[48px] font-medium text-gray1-1300 flex items-center w-[100%] h-[51.2px]"
       >
         Tudo sobre Colocação de piso cerâmico em Cachoeiro de Itapemirim
       </div>
@@ -564,8 +550,9 @@
         profissional.
       </div>
     </div>
+    <div class="relative left-[10%]">
     <div
-      class="absolute top-[1638px] left-[53px] text-13xl leading-[48px] font-medium text-gray1-1300 flex items-center w-[357px] h-12"
+      class="absolute top-[1638px] left-[10%] text-13xl leading-[48px] font-medium text-gray1-1300 flex items-center w-[357px] h-12"
     >
       Avaliações e resenhas
     </div>
@@ -625,10 +612,10 @@
       src="/icon9.svg"
     />
     <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_302px)] right-[310px] left-[884px] rounded bg-whitesmoke-400 h-1"
+      class="absolute w-[calc(33%_-_194px)] top-[1665px] right-[310px] left-[884px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_16.7px)] top-[0px] right-[16.7px] left-[0px] rounded bg-mediumturquoise h-1"
+        class="absolute w-[calc(100%_-_1.7px)] top-[0px] right-[16.7px] left-[0px] rounded bg-mediumturquoise h-1"
       />
     </div>
     
@@ -642,13 +629,7 @@
       alt=""
       src="/icon9.svg"
     />
-    <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_338px)] right-[410px] left-[890px] rounded bg-whitesmoke-400 h-1"
-    >
-      <div
-        class="absolute w-[calc(100%_-_155.5px)] top-[3px] right-[93.5px] left-[145px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
-      />
-    </div>
+
     <div
       class="absolute top-[1722px] left-[825px] leading-[24px] flex items-center w-[13px] h-6"
     >
@@ -659,13 +640,7 @@
       alt=""
       src="/icon9.svg"
     />
-    <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_375px)] right-[275px] left-[890px] rounded bg-whitesmoke-400 h-1"
-    >
-      <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[93.7px] left-[145px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
-      />
-    </div>
+  
     <div
       class="absolute top-[1756px] left-[825px] leading-[24px] flex items-center w-[13px] h-6"
     >
@@ -682,21 +657,13 @@
       alt=""
       src="/icon9.svg"
     />
-    <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_406px)] right-[307px] left-[887px] rounded bg-whitesmoke-400 h-1"
-    />
+    
     <img
       class="absolute top-[1791px] left-[849px] w-6 h-[22px] overflow-hidden"
       alt=""
       src="/icon9.svg"
     />
-    <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_443px)] right-[275px] left-[887px] rounded bg-whitesmoke-400 h-1"
-    >
-      <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[89.7px] left-[887px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
-      />
-    </div>
+   
     <div
       class="absolute top-[1654px] left-[1325px] leading-[24px] flex items-center w-[37px] h-6"
     >
@@ -719,14 +686,11 @@
     </div>
     <div
       class="absolute top-[1791px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
-    >
-      0
+    > 0
+  </div>
+      
     </div>
-    <div
-      class="absolute top-[3543px] left-[90px] text-sm leading-[20px] text-steelblue-100 flex items-center w-[83px] h-5"
-    >
-      19/04/2022
-    </div>
+   
     <div
       class="absolute w-[calc(100%_+_239px)] top-[3637px] right-[-329px] left-[90px] box-border h-px overflow-hidden border-t-[1px] border-solid border-whitesmoke-400"
     />
@@ -957,7 +921,7 @@
       src="/icon10.svg"
     />
     <div
-      class="absolute h-[calc(100%_-_2676px)] top-[4116px] bottom-[-1440px] left-[90px] w-[53px] overflow-hidden"
+      class="absolute h-[calc(100%_-_2676px)] top-[4116px] bottom-[-1440px] left-[90px] w-[100%] overflow-hidden"
     >
       <div
         class="absolute w-full top-[0px] right-[0px] left-[0px] h-12 overflow-hidden"
@@ -974,42 +938,16 @@
         src="/image36@2x.png"
       />
     </div>
+    
+   
     <div
-      class="absolute top-[4589px] left-[-729px] text-base leading-[24px] flex items-center w-[921px] h-6"
-    >
-      Mariano é um excelente profissional. Ele reformou toda a minha cozinha e
-      meu banheiro e ficou ótimo. Recomendo!!
-    </div>
-    <div
-      class="absolute h-[calc(100%_-_2546px)] top-[2931px] bottom-[-385px] left-[1384px] bg-gray1-400 w-[313px] text-center text-xs text-steelblue-100"
-    >
-      <div
-        class="absolute w-[calc(100%_-_32px)] top-[52px] right-[16px] left-[16px] rounded-xl bg-steelblue-200 h-8"
-      >
-        <div
-          class="absolute top-[9px] left-[calc(50%_-_86.1px)] leading-[16px] font-medium flex items-center justify-center w-[173.5px] h-3.5"
-        >
-          Mariano G. atendeu esse pedido
-        </div>
-      </div>
-      <div
-        class="absolute w-[calc(100%_-_32px)] top-[108px] right-[16px] left-[16px] rounded-8xs bg-grey-white box-border h-[46px] text-base text-dimgray-800 border-[1px] border-solid border-dimgray-800"
-      >
-        <div
-          class="absolute top-[13px] left-[27.5px] leading-[20px] font-medium flex items-center justify-center w-[193.3px] h-[19px]"
-        >
-          Receber orçamentos grátis
-        </div>
-      </div>
-    </div>
-    <div
-      class="absolute w-full right-[3px] bottom-[2.4px] left-[-3px] h-[329.6px] text-mini text-grey-white font-regular"
+      class="absolute w-full right-[3px] bottom-[2.4px] left-[-3px] h-[339.6px] w- text-mini text-grey-white font-regular"
     >
       <div
         class="absolute w-full right-[0px] bottom-[0px] left-[0px] bg-gray1-1500 h-[329.6px]"
       />
       <div
-        class="absolute top-[49.6px] left-[384px] h-[143.7px] flex flex-row items-center justify-start gap-[30px]"
+        class="absolute top-[69.6px] left-[35%] h-[149.7px] flex flex-row items-center justify-start gap-[30px]"
       >
         <div class="relative w-[99px] h-[75px] text-5xl font-judson">
           <img
@@ -1042,6 +980,7 @@
         </div>
       </div>
     </div>
+   <div class="relative left-[10%] top-[-50px]">
     <div
       class="absolute top-[1972px] left-[113px] text-base leading-[20px] font-medium flex items-center w-[71px] h-5"
     >
@@ -1098,7 +1037,7 @@
         class="absolute top-[0px] left-[0px] rounded-29xl w-12 h-12 overflow-hidden bg-[url('/public/image37@3x.png')] bg-cover bg-no-repeat bg-[top]"
       >
         <img
-          class="absolute top-[0px] left-[0px] w-52 h-[239px] object-cover"
+          class="absolute top-[0px] left-[105px] w-52 h-[239px] object-cover"
           alt=""
           src="/image-22@2x.png"
         />
@@ -1217,6 +1156,7 @@
     <div
       class="absolute top-[2189px] left-[284px] text-xs leading-[16px] text-color-7 flex items-center w-[779px] h-[119px]"
     >
+    
       <span class="[line-break:anywhere] w-full">
         <p class="m-0">
           Receber a orientação de Louro José foi como encontrar um farol em meio
@@ -1234,6 +1174,7 @@
         </p>
       </span>
     </div>
+  </div>
   </div>
   <div v-if="isPopUpSair1Open">
     <PortalPopup
