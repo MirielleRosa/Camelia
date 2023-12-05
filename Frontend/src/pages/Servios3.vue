@@ -673,7 +673,7 @@
       class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_338px)] right-[410px] left-[890px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_155.5px)] top-[3px] right-[93.5px] left-[145px]  rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_155.5px)] top-[3px] right-[93.5px] left-[145px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
@@ -690,7 +690,7 @@
       class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_375px)] right-[275px] left-[890px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[93.7px] left-[145px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[93.7px] left-[145px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
@@ -721,7 +721,7 @@
       class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_443px)] right-[275px] left-[887px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[89.7px] left-[887px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[89.7px] left-[887px]  h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
@@ -732,12 +732,12 @@
     <div
       class="absolute top-[1688px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
     >
-      4
+      0
     </div>
     <div
       class="absolute top-[1722px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
     >
-      2
+      0
     </div>
     <div
       class="absolute top-[1758px] left-[1325px] leading-[24px] flex items-center w-[13px] h-6"
