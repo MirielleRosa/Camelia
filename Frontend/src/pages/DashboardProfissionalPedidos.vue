@@ -594,13 +594,14 @@
     <div class="absolute top-[29.76%] left-[50.76%] text-gray1-800">
       Anna Kathy
     </div>
-    <div class="absolute top-[390px] left-[1116px] rounded-lg" />
+    <div class="absolute top-[390px] left-[1116px] rounded-lg" /> 
     <div
       class="absolute w-[calc(100%_-_1336px)] top-[404px] right-[101px] left-[1235px] rounded-lg bg-mediumaquamarine-200 box-border h-[29px] border-[1px] border-solid border-powderblue"
     />
-    <div class="absolute top-[34%] left-[87.36%] text-mini text-color-7">
+    
+    <button class="absolute top-[34%] left-[87.36%] text-mini text-color-7">
       Detalhes
-    </div>
+    </button>
     <b
       class="absolute top-[45.47%] left-[45.84%] text-5xl [transform:_rotate(0.18deg)] [transform-origin:0_0]"
       >Aplicação de argamassa</b
@@ -619,6 +620,7 @@
     <div class="absolute top-[56.64%] left-[87.29%] text-mini text-color-7">
       Detalhes
     </div>
+    
     <b
       class="absolute top-[67.25%] left-[45.84%] text-5xl [transform:_rotate(0.18deg)] [transform-origin:0_0]"
       >Aplicação de argamassa</b
@@ -675,3 +677,23 @@
     },
   });
 </script>
+
+<style>
+  /* Estilos podem ser ajustados conforme necessário */
+  .container {
+    position: relative;
+    /* Outros estilos necessários */
+  }
+
+  .details-section {
+    /* Estilos das seções */
+  }
+
+  .details-inner {
+    /* Estilos das divs internas */
+  }
+
+  .details-button {
+    /* Estilos dos botões "Detalhes" */
+  }
+</style>
