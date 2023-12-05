@@ -86,6 +86,7 @@
           
         </div>
       </div>
+      
       <div class="absolute top-[144.9px] left-[1px] w-[556.1px] h-[96.2px]">
         <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
           <div
@@ -93,7 +94,7 @@
           />
         </div>
         <div
-          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[17.68%] left-[3.67%] h-[50.1px]"
+          class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[17.68%] left-[8.67%] h-[50.1px]"
         >
         <input v-model="senha" class="absolute w-full top-[calc(50% - 25.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px] bg-transparent" type="password" placeholder="Senha" style="caret-color: transparent;">
                   </div>
