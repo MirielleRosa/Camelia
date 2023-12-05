@@ -86,6 +86,7 @@
           
         </div>
       </div>
+      
       <div class="absolute top-[144.9px] left-[1px] w-[556.1px] h-[96.2px]">
         <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px] ">
           <div

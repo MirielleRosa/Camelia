@@ -535,7 +535,7 @@
         this.$router.push("/tela-inicial-cliente");
       },
       onIMAGE4Click() {
-        this.$router.push("/-servios-2");
+        this.$router.push("/-servios-3");
       },
       onSobreTextClick() {
         this.$router.push("/sobre");
