@@ -327,17 +327,24 @@
         <div
           class="absolute top-[81px] left-[3px] text-inherit leading-[25px] font-inherit inline-block w-[694px]"
         >
-          <ul class="m-0 pl-6">
-            <li class="mb-0">Como funciona a plataforma?</li>
-            <li class="mb-0">Como atrair mais clientes?</li>
-            <li class="mb-0">Como é feito o pagamento?</li>
-            <li class="mb-0">Como é feito o agendamento dos serviços?</li>
-            <li class="mb-0">Como garantimos a sua confidencialidade?</li>
-            <li class="mb-0">Como cancelar o contrato?</li>
-            <li class="mb-0">
+          <ul class="pl-6">
+            <li class="mb-2 md:mb-1">Como funciona a plataforma?</li>
+            <br>
+            <li class="mb-2 md:mb-1">Como atrair mais clientes?</li>
+            <br>
+            <li class="mb-2 md:mb-1">Como é feito o pagamento?</li>
+            <br>
+            <li class="mb-2 md:mb-1">Como é feito o agendamento dos serviços?</li>
+            <br>
+            <li class="mb-2 md:mb-1">Como garantimos a sua confidencialidade?</li>
+            <br>
+            <li class="mb-2 md:mb-1">Como cancelar o contrato?</li>
+            <br>
+            <li class="mb-2 md:mb-1">
               Por que o feedback dos clientes é importante para os seus
               contratos?
             </li>
+            <br>
             <li>Teve um problema? Cliente aqui</li>
           </ul>
         </div>
