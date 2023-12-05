@@ -627,26 +627,17 @@
   <div class="absolute top-[0px] left-[0px]" @click="onGroupContainer15Click">Meus Pedidos</div>
 </div>
 
-    <div
-      class="absolute top-[25px] left-[80%] w-[236px] h-[65px] text-center text-6xl"
-    >
-      <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
-        <div class="absolute top-[23px] left-[97px]">Francisco</div>
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[0] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
-        >
-          F
-        </div>
-      </div>
-      <img
-        class="absolute h-[49.54%] w-[12.71%] top-[35.38%] right-[0%] bottom-[15.08%] left-[87.29%] max-w-full overflow-hidden max-h-full cursor-pointer"
-        alt=""
-        src="/arrow--caret-down-md5.svg" :onClick="openPopUpSair"
-      />
-    </div>
+    
+    <div class="absolute top-[25px] left-[80%] w-[236px] h-[65px] text-center text-6xl cursor-pointer" :onClick="openPopUpSair">
+  <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
+    <div class="absolute top-[23px] left-[97px] z-[2]">Francisco</div>
+    <div class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px] z-[1]"></div>
+    <div class="absolute top-[0] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white z-[3]"> F </div>
+  </div>
+  <img class="absolute h-[49.54%] w-[12.71%] top-[35.38%] right-[0%] bottom-[15.08%] left-[87.29%] max-w-full overflow-hidden max-h-full cursor-pointer z-[4]" alt="" src="/arrow--caret-down-md5.svg" :onClick="openPopUpSair">
+</div>
+
+
     <div
       class="absolute top-[3090px] left-[calc(50%_-_587px)] w-[1174px] h-[492px] text-xs text-darkslategray-400"
     >
