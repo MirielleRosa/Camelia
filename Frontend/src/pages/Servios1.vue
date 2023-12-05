@@ -2,12 +2,12 @@
   <div
     class="relative bg-grey-white w-full h-[2465px] overflow-hidden text-center text-xl text-gray1-1500 font-roboto"
   >
-    <div class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px]">
+    <div class="absolute top-[32px] left-[-11px] w-[100%] h-[119px]">
       <div
-        class="absolute top-[57.5px] left-[759.5px] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
+        class="absolute top-[57.5px] left-[48%] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
       />
       <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
+        class="absolute top-[28px] left-[43%] flex flex-row items-start justify-start gap-[50px]"
       >
         <div class="relative">Início</div>
         <div class="relative">Serviços</div>
@@ -17,46 +17,22 @@
         alt=""
         src="/group-7-12.svg"
       />
-      <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
     </div>
-    <div class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px]">
-      <div
-        class="absolute top-[57.5px] left-[759.5px] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
-      <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
-      >
-        <div class="relative cursor-pointer" @click="onIncioText1Click">
-          Início
-        </div>
-        <div class="relative">Serviços</div>
-      </div>
-      <img
-        class="absolute top-[0px] left-[68px] w-[129px] h-[99px] overflow-hidden cursor-pointer"
-        alt=""
-        src="/group-7-12.svg"
-        @click="onGroup711Click"
-      />
-      <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
-    </div>
+    
     <div
-      class="absolute top-[60px] left-[866px] w-[127px] h-[23px] cursor-pointer"
+      class="absolute top-[60px] left-[55%] w-[127px] h-[23px] cursor-pointer"
       @click="onGroupContainer2Click"
     >
       <div class="absolute top-[0px] left-[0px]">Meus Pedidos</div>
     </div>
-    <div class="absolute top-[151px] left-[0px] w-[1440px] h-[575px] text-2xs">
-      <div class="absolute top-[0px] left-[0px] w-[1440px] h-[467px]">
+    <div class="absolute top-[151px] left-[0px] w-[100%] h-[575px] text-2xs">
+      <div class="absolute top-[0px] left-[0px] w-[100%] h-[467px]">
         <div
-          class="absolute top-[0px] left-[0px] bg-mediumaquamarine-500 w-[1440px] h-[467px]"
+          class="absolute top-[0px] left-[0px] bg-mediumaquamarine-500 w-[100%] h-[467px]"
         />
       </div>
       <div
-        class="absolute top-[485px] left-[74px] flex flex-col items-start justify-start"
+        class="absolute top-[485px] left-[20%] flex flex-col items-start justify-start"
       >
         <div class="flex flex-row items-end justify-start">
           <div class="relative w-[1284px] h-[90px]">
@@ -232,7 +208,7 @@
         class="absolute top-[153px] left-[617px] w-[594px] h-[124px] text-left text-lgi"
       >
         <div
-          class="absolute top-[0px] left-[0px] leading-[24px] inline-block w-[594px]"
+          class="absolute top-[0px] left-[250px] leading-[24px] inline-block w-[594px]"
         >
           Encontre profissionais verificados e qualificados para o seu projeto
         </div>
@@ -240,10 +216,10 @@
           class="absolute top-[72px] left-[50px] w-[488px] h-[52px] text-mini text-gray1-1700"
         >
           <div
-            class="absolute top-[0px] left-[0px] rounded-8xs bg-grey-white w-[488px] h-[52px]"
+            class="absolute top-[0px] left-[250px] rounded-8xs bg-grey-white w-[488px] h-[52px]"
           />
           <div
-            class="absolute top-[14px] left-[32px] leading-[24px] inline-block w-[153px]"
+            class="absolute top-[14px] left-[282px] leading-[24px] inline-block w-[153px]"
           >
             Buscar serviço
           </div>
@@ -252,44 +228,44 @@
     </div>
     <div class="absolute top-[187px] left-[186px] w-[310px] h-[431px]" />
     <img
-      class="absolute top-[167px] left-[136px] w-[533px] h-[451px] object-cover"
+      class="absolute top-[167px] left-[396px] w-[533px] h-[451px] object-cover"
       alt=""
       src="/canalizadorcomosbracoscruzadosremovebgpreview-1-1@2x.png"
     />
     <div
-      class="absolute top-[780px] left-[23px] w-[1409.2px] h-[1203px] text-left text-lg"
+      class="absolute top-[780px] right-[1.5%] w-[100%] h-[1203px] text-left text-lg"
     >
       <div class="absolute top-[0px] left-[0px] w-[1400px] h-[361px]">
         <div
-          class="absolute top-[55px] left-[363px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[397.8px] rounded-sm w-[241.4px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[600px] rounded-sm w-[241.4px] h-[200px] object-cover"
           alt=""
           src="/image50@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[735.7px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[1100px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[767.6px] rounded-sm w-[241.4px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[1100px] rounded-sm w-[241.4px] h-[200px] object-cover"
           alt=""
           src="/image24@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[1089.1px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[1600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[1123.9px] rounded-sm w-[241.4px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[1600px] rounded-sm w-[241.4px] h-[200px] object-cover"
           alt=""
           src="/image51@2x.png"
         />
         <div
-          class="absolute top-[0px] left-[0px] text-xl leading-[32px] inline-block w-[268.9px]"
+          class="absolute top-[0px] left-[130px] text-xl leading-[32px] inline-block w-[268.9px]"
         >
           Serviços Elétricos
         </div>
-        <div class="absolute top-[55px] left-[0px] w-[310.9px] h-[306px]">
+        <div class="absolute top-[55px] left-[90px] w-[310.9px] h-[306px]">
           <div
             class="absolute top-[0px] left-[0px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
           />
@@ -299,142 +275,143 @@
             src="/image22@2x.png"
           />
           <div
-            class="absolute top-[226px] left-[18.9px] leading-[26px] inline-block w-[203.1px]"
+            class="absolute top-[226px] left-[40px] leading-[26px] inline-block w-[203.1px]"
           >
             Conserto de Interfone
           </div>
         </div>
         <div
-          class="absolute top-[281px] left-[382.4px] leading-[26px] inline-block w-[128.5px]"
+          class="absolute top-[281px] left-[600px] leading-[26px] inline-block w-[128.5px]"
         >
           Eletricista
         </div>
         <div
-          class="absolute top-[281px] left-[745.8px] leading-[26px] inline-block w-[300.7px]"
+          class="absolute top-[281px] left-[1100px] leading-[26px] inline-block w-[300.7px]"
         >
           Instalação de câmeras de segurança
         </div>
         <div
-          class="absolute top-[281px] left-[1108.3px] leading-[26px] inline-block w-[291.8px]"
+          class="absolute top-[281px] left-[1600px] leading-[26px] inline-block w-[291.8px]"
         >
           Instalação de chuveiro elétrico
         </div>
       </div>
       <div class="absolute top-[415px] left-[0px] w-[1409.2px] h-[361px]">
         <div
-          class="absolute top-[43px] left-[0px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[43px] left-[110px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[24.9px] rounded-sm w-[248.9px] h-[200px] object-cover cursor-pointer"
+          class="absolute top-[55px] left-[110px] rounded-sm w-[248.9px] h-[200px] object-cover cursor-pointer"
           alt=""
           src="/image52@2x.png"
           @click="onIMAGE4Click"
         />
         <div
-          class="absolute top-[55px] left-[362.5px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[64px] left-[394.3px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[64px] left-[600px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image27@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[735.9px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[1100px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[766.7px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[1100px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image28@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[1098.3px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[1600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[1120.2px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[1600px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image29@2x.png"
         />
         <div
-          class="absolute top-[0px] left-[6px] text-xl leading-[32px] inline-block w-[148.4px]"
+          class="absolute top-[0px] left-[110px] text-xl leading-[32px] inline-block w-[148.4px]"
         >
           Serviços de Piso
         </div>
         <div
-          class="absolute top-[281px] left-[25.9px] leading-[26px] inline-block w-[227px]"
+          class="absolute top-[281px] left-[110px] leading-[26px] inline-block w-[227px]"
         >
           Colocação de piso cerâmico
         </div>
         <div
-          class="absolute top-[281px] left-[403.3px] leading-[26px] inline-block w-[225px]"
+          class="absolute top-[281px] left-[600px] leading-[26px] inline-block w-[225px]"
         >
           Instalação de piso laminado
         </div>
         <div
-          class="absolute top-[281px] left-[780.7px] leading-[26px] inline-block w-[247.9px]"
+          class="absolute top-[281px] left-[1100px] leading-[26px] inline-block w-[247.9px]"
         >
           Colocação de piso porcelanato
         </div>
         <div
-          class="absolute top-[281px] left-[1158.1px] leading-[26px] inline-block w-[207.1px]"
+          class="absolute top-[281px] left-[1600px] leading-[26px] inline-block w-[207.1px]"
         >
           Instalação de piso vinílico
         </div>
       </div>
       <div class="absolute top-[842px] left-[0px] w-[1409.2px] h-[361px]">
         <div
-          class="absolute top-[55px] left-[0px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[110px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[56px] left-[14.9px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[56px] left-[110px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image30@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[362.5px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
+          class="absolute top-[55px] left-[600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[56px] left-[393.3px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[56px] left-[600px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image53@2x.png"
         />
         <div
-          class="absolute top-[55px] left-[735.9px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
-        />
-        <img
-          class="absolute top-[55px] left-[766.7px] rounded-sm w-[248.9px] h-[200px] object-cover"
-          alt=""
-          src="/image32@2x.png"
+          class="absolute top-[55px] left-[1600px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <div
           class="absolute top-[55px] left-[1098.3px] rounded-sm bg-grey-white shadow-[0px_5px_10px_rgba(0,_0,_0,_0.1)] w-[310.9px] h-[306px]"
         />
         <img
-          class="absolute top-[55px] left-[1129.2px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          class="absolute top-[55px] left-[1100px] rounded-sm w-[248.9px] h-[200px] object-cover"
+          alt=""
+          src="/image32@2x.png"
+        />
+       
+        <img
+          class="absolute top-[55px] left-[1600px] rounded-sm w-[248.9px] h-[200px] object-cover"
           alt=""
           src="/image33@2x.png"
         />
         <div
-          class="absolute top-[0px] left-[6px] text-xl leading-[32px] inline-block w-[63.7px]"
+          class="absolute top-[0px] left-[110px] text-xl leading-[32px] inline-block w-[63.7px]"
         >
           Pintura
         </div>
         <div
-          class="absolute top-[281px] left-[25.9px] leading-[26px] inline-block w-[47.8px]"
+          class="absolute top-[281px] left-[112px] leading-[26px] inline-block w-[47.8px]"
         >
           Pintor
         </div>
         <div
-          class="absolute top-[281px] left-[403.3px] leading-[26px] inline-block w-[203.1px]"
+          class="absolute top-[281px] left-[600px] leading-[26px] inline-block w-[203.1px]"
         >
           Pintura de portão e grade
         </div>
         <div
-          class="absolute top-[281px] left-[780.7px] leading-[26px] inline-block w-[214.1px]"
+          class="absolute top-[281px] left-[1102px] leading-[26px] inline-block w-[214.1px]"
         >
           Pintura de portas e janelas
         </div>
         <div
-          class="absolute top-[281px] left-[1158.1px] leading-[26px] inline-block w-[122.5px]"
+          class="absolute top-[281px] left-[1600px] leading-[26px] inline-block w-[122.5px]"
         >
           Pintura externa
         </div>
@@ -447,7 +424,7 @@
         class="absolute w-full right-[0px] bottom-[0px] left-[0px] bg-gray1-1500 h-[329.2px]"
       />
       <div
-        class="absolute top-[92.6px] left-[458px] h-[143.5px] flex flex-row items-center justify-start gap-[30px]"
+        class="absolute top-[120.6px] left-[40%] h-[143.5px] flex flex-row items-center justify-start gap-[30px]"
       >
         <div class="relative w-[99px] h-[75px] text-5xl font-judson">
           <img
@@ -480,14 +457,14 @@
         </div>
       </div>
     </div>
-    <div class="absolute top-[39px] left-[1173px] w-[236px] h-[65px] text-6xl">
+    <div class="absolute top-[39px] left-[80%] w-[236px] h-[65px] text-6xl">
       <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
         <div class="absolute top-[23px] left-[97px]">Francisco</div>
         <div
           class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
         />
         <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
+          class="absolute top-[0] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
         >
           F
         </div>
@@ -499,28 +476,7 @@
         :onClick="openPopUpSair"
       />
     </div>
-    <div
-      class="absolute top-[39px] left-[1173px] w-[236px] h-[65px] cursor-pointer text-6xl"
-      :onClick="openPopUpSair2"
-    >
-      <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
-        <div class="absolute top-[23px] left-[97px]">Francisco</div>
-        <div
-          class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
-        />
-        <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
-        >
-          F
-        </div>
-      </div>
-      <img
-        class="absolute h-[41.54%] w-[12.71%] top-[42.15%] right-[0%] bottom-[16.31%] left-[87.29%] max-w-full overflow-hidden max-h-full cursor-pointer"
-        alt=""
-        src="/arrow--caret-down-md2.svg"
-        :onClick="openPopUpSair1"
-      />
-    </div>
+   
   </div>
   <div v-if="isPopUpSairOpen">
     <PortalPopup
