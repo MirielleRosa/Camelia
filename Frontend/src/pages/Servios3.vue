@@ -3,7 +3,7 @@
     class="relative bg-grey-white w-full h-[2724px] overflow-hidden text-left text-xl text-dimgray-800 font-roboto"
   >
     <div
-      class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px] text-center text-gray1-1500"
+      class="absolute top-[32px] left-[-11px] w-[100%] h-[119px] text-center text-gray1-1500"
     >
       <div
         class="absolute top-[57.5px] left-[759.5px] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
@@ -20,35 +20,10 @@
         src="/group-7-12.svg"
       />
       <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
+        class="absolute top-[118.5px] left-[-0.5px] box-border w-[100%] h-px border-t-[1px] border-solid border-gray1-1500"
       />
     </div>
-    <div
-      class="absolute top-[32px] left-[-11px] w-[1451px] h-[119px] text-center text-gray1-1500"
-    >
-      <div
-        class="absolute top-[57.5px] left-[759.5px] box-border w-[79px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
-      <div
-        class="absolute top-[28px] left-[661px] flex flex-row items-start justify-start gap-[50px]"
-      >
-        <div class="relative cursor-pointer" @click="onIncioText1Click">
-          Início
-        </div>
-        <div class="relative cursor-pointer" @click="onServiosText1Click">
-          Serviços
-        </div>
-      </div>
-      <img
-        class="absolute top-[0px] left-[68px] w-[129px] h-[99px] overflow-hidden cursor-pointer"
-        alt=""
-        src="/group-7-12.svg"
-        @click="onGroup711Click"
-      />
-      <div
-        class="absolute top-[118.5px] left-[-0.5px] box-border w-[1452px] h-px border-t-[1px] border-solid border-gray1-1500"
-      />
-    </div>
+   
     <div
       class="absolute top-[60px] left-[866px] w-[127px] h-[23px] cursor-pointer text-center text-gray1-1500"
       @click="onGroupContainer2Click"
@@ -56,15 +31,13 @@
       <div class="absolute top-[0px] left-[0px]">Meus Pedidos</div>
     </div>
     <div
-      class="absolute top-[151px] left-[0px] w-[1440px] h-32 text-center text-2xs text-gray1-1500"
+      class="absolute top-[151px] left-[0%] w-[100%] h-32 text-center text-2xs text-gray1-1500"
     >
-      <div class="absolute top-[0px] left-[0px] w-[1440px] h-32">
-        <div
-          class="absolute top-[0px] left-[0px] bg-mediumaquamarine-500 w-[1440px] h-32"
-        />
+      <div class="absolute top-[0px] left-[0px] w-[100%] h-32">
+     
       </div>
       <div
-        class="absolute top-[19px] left-[94px] flex flex-col items-start justify-start"
+        class="absolute top-[19px] left-[20%] flex flex-col items-start justify-start"
       >
         <div class="flex flex-row items-end justify-start">
           <div class="relative w-[1284px] h-[90px]">
@@ -311,7 +284,7 @@
       />
     </div>
     <div
-      class="absolute h-[calc(100%_-_2224px)] w-[calc(100%_-_645px)] top-[402px] right-[603px] bottom-[1822px] left-[42px] overflow-hidden text-xs"
+      class="absolute h-[calc(100%_-_2224px)] w-[calc(100%_-_645px)] top-[402px] right-[603px] bottom-[1822px] left-[10%] overflow-hidden text-xs"
     >
       <div
         class="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] overflow-hidden text-grey-white"
@@ -397,7 +370,7 @@
       </div>
     </div>
     <div
-      class="absolute w-[calc(100%_-_983px)] top-[402px] right-[84px] left-[899px] rounded-3xs bg-grey-white box-border h-[482px] text-base border-[1px] border-solid border-whitesmoke-400"
+      class="absolute w-[calc(100%_-_1283px)] top-[402px] right-[84px] left-[55%] rounded-3xs bg-grey-white box-border h-[482px] text-base border-[1px] border-solid border-whitesmoke-400"
     >
       <div
         class="absolute top-[25px] left-[25px] rounded bg-steelblue-200 w-[103.4px] h-[34px] text-center text-xs text-color-7"
@@ -443,27 +416,27 @@
         avaliações
       </div>
       <div
-        class="absolute top-[355px] left-[28px] text-9xl leading-[36px] font-black flex items-center w-[41.2px] h-9"
+        class="absolute top-[355px] left-[29%] text-9xl leading-[36px] font-black flex items-center w-[41.2px] h-9"
       >
         R$
       </div>
       <div
-        class="absolute top-[355px] left-[73px] text-9xl leading-[36px] font-black flex items-center w-[89px] h-9"
+        class="absolute top-[355px] left-[35%] text-9xl leading-[36px] font-black flex items-center w-[89px] h-9"
       >
         3.000
       </div>
       <div
-        class="absolute top-[331px] left-[162px] text-9xl leading-[36px] font-black flex items-center w-[18.1px] h-9"
+        class="absolute top-[355px] left-[50%] text-9xl leading-[36px] font-black flex items-center w-[18.1px] h-9"
       >
         -
       </div>
       <div
-        class="absolute top-[355px] left-[200px] text-9xl leading-[36px] font-black flex items-center w-[113.6px] h-9"
+        class="absolute top-[355px] left-[55%] text-9xl leading-[36px] font-black flex items-center w-[113.6px] h-9"
       >
         8.000,00
       </div>
       <div
-        class="absolute top-[391px] left-[25px] text-xs leading-[16px] flex items-center w-[239.4px] h-4"
+        class="absolute top-[391px] left-[30%] text-xs leading-[16px] flex items-center w-[239.4px] h-4"
       >
         Preço médio estimado, pode haver variações
       </div>
@@ -471,14 +444,14 @@
         class="absolute w-[calc(100%_-_50px)] top-[423px] right-[25px] left-[25px] rounded-8xs bg-color-7 box-border h-[46px] text-center text-grey-white border-[1px] border-solid border-color-7"
       >
         <div
-          class="absolute top-[13px] left-[128.3px] leading-[20px] font-medium flex items-center justify-center w-[175.8px] h-[19px]"
+          class="absolute top-[13px] left-[35%] leading-[20px] font-medium flex items-center justify-center w-[175.8px] h-[19px]"
         >
           Pedir Orçamentos Grátis
         </div>
       </div>
     </div>
     <div
-      class="absolute top-[595px] left-[924px] text-smi leading-[24px] text-color-7 flex items-center w-[347px]"
+      class="absolute top-[595px] left-[56.5%] text-smi leading-[24px] text-color-7 flex items-center w-[30%]"
     >
       Olá, sou Louro José e tenho 15 anos de experiência no mercado de pisos de
       luxo, mergulhei no design de interiores, aprimorando técnicas e materiais
