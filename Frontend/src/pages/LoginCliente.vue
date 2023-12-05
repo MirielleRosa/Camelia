@@ -3,7 +3,7 @@
     class="relative bg-grey-white w-full h-[1024px] overflow-hidden text-left text-xl text-darkslategray-400 font-roboto"
   >
     <img
-      class="absolute top-[132px] left-[720px] rounded-tl-8xs rounded-tr-none rounded-b-none w-[720px] h-[892px] object-cover"
+      class="absolute top-[180px]  left-[850px] rounded-tl-8xs rounded-tr-none rounded-b-none w-[720px] h-[892px] object-cover"
       alt=""
       src="/tiroisoladodesorridentefaztudocaucasianoenvelhecidocombarbaporfazeroumontadorusandocapacetedesegurancaeoculosusandorebarbadoraparacorteemoagemtrabalhopesadoconstrucaoeconceitode-2@2x.png"
     />
@@ -94,10 +94,9 @@
         </div>
         <div
           class="absolute w-[78.65%] top-[calc(50%_-_12px)] right-[17.68%] left-[3.67%] h-[50.1px]"
-        >
-        <input v-model="senha" class="absolute w-full top-[calc(50%_-_25.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px]" type="senha" placeholder="Senha">
-          
-        </div>
+        > 
+    <input v-model="senha" class="absolute w-full top-[calc(50% - 25.05px)] left-[0%] tracking-[0.25px] leading-[28px] inline-block h-[50.1px] bg-transparent" type="password" placeholder="Senha" style="caret-color: transparent;">
+  </div>
       </div>
     </div>
   </div>
