@@ -48,8 +48,8 @@
             alt=""
             src="/tab.svg"
           />
-          <div
-            class="absolute top-[calc(50%_-_7.5px)] left-[71px] leading-[100%]"
+          <div 
+            class="absolute top-[calc(50%_-_7.5px)] left-[71px] leading-[100%] cursor-pointer" @click="onNavDashboard()"
           >
             Dashboard
           </div>
@@ -635,6 +635,9 @@
     methods: {
       onNavLinksDark1Click() {
         this.$router.push("/dashboard-profissional-pedidos");
+      },
+      onNavDashboard() {
+        this.$router.push("/dashboard-profissional");
       },
       onNavLinksDark2Click() {
         this.$router.push("/dashboard-profissional-chat");
