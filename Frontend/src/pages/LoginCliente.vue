@@ -65,14 +65,12 @@
     <div
       class="absolute top-[367px] left-[117px] w-[560.4px] h-[441.1px] text-gray1-1000"
     >
-   
-<button class="absolute top-[360.5px] left-[4.1px] w-[556.3px] h-[80.7px] cursor-pointer text-center text-grey-white relative" @click="verificarLogin()">
+    <button class="absolute top-[360.5px] left-[4.1px] w-[556.3px] h-[80.7px] cursor-pointer text-center text-grey-white relative" @click="verificarLogin()">
   <div class="absolute top-0 left-0 w-full h-full rounded-xl bg-gray1-1500"></div>
-  <span class="absolute w-86.05% top-[50%] left-[6.97%] inline-block tracking-[0.25px] leading-[28px] text-white">
+  <span class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">
     ENTRAR
   </span>
 </button>
-
 
       <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px]">
         <div class="absolute top-[0px] left-[0px] w-[556.1px] h-[96.2px]">

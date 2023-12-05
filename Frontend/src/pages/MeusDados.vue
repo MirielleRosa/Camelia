@@ -318,8 +318,7 @@
     >
     <b
       class="absolute top-[1021px] left-[1191px] text-mini tracking-[0.25px] leading-[28px] inline-block text-center w-[52px] h-3"
-      >Alterar</b
-    >
+      >Alterar</b>
     <div
       class="absolute top-[479px] left-[1134px] w-40 h-7 text-center text-mini"
     >
