@@ -67,7 +67,6 @@
         </div>
         <div
           class="absolute top-[115px] left-[0px] w-60 h-12 cursor-pointer"
-          @click="onNavLinksDark2Click"
         >
           <img
             class="absolute top-[calc(50%_-_12px)] left-[24px] w-6 h-6 overflow-hidden opacity-[0.9]"
@@ -97,7 +96,6 @@
         </div>
         <div
           class="absolute top-[227px] left-[0px] w-60 h-12 cursor-pointer"
-          @click="onNavLinksDark4Click"
         >
           <div
             class="absolute top-[calc(50%_-_8px)] left-[71px] leading-[100%]"

@@ -71,7 +71,6 @@
         </div>
         <div
           class="relative w-60 h-12 cursor-pointer"
-          @click="onNavLinksDark2Click"
         >
           <div
             class="absolute top-[calc(50%_-_8px)] left-[71px] leading-[100%]"
@@ -98,7 +97,6 @@
         </div>
         <div
           class="relative w-60 h-12 cursor-pointer"
-          @click="onNavLinksDark4Click"
         >
           <div
             class="absolute top-[calc(50%_-_8px)] left-[71px] leading-[100%]"

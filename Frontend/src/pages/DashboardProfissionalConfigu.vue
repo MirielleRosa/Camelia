@@ -86,7 +86,6 @@
         </div>
         <div
           class="relative w-60 h-12 cursor-pointer"
-          @click="onNavLinksDark3Click"
         >
           <img
             class="absolute top-[11.8px] left-[24px] w-6 h-6 overflow-hidden opacity-[0.9]"
