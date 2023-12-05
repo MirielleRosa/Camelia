@@ -669,10 +669,10 @@
       src="/icon9.svg"
     />
     <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_338px)] right-[280px] left-[914px] rounded bg-whitesmoke-400 h-1"
+      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_338px)] right-[410px] left-[890px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_155.5px)] top-[0px] right-[93.5px] left-[62px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_155.5px)] top-[3px] right-[93.5px] left-[145px]  rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
@@ -686,10 +686,10 @@
       src="/icon9.svg"
     />
     <div
-      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_375px)] right-[275px] left-[919px] rounded bg-whitesmoke-400 h-1"
+      class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_375px)] right-[275px] left-[890px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[0px] right-[89.7px] left-[62px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[93.7px] left-[145px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
@@ -719,7 +719,7 @@
       class="absolute w-[calc(100%_-_1194px)] top-[calc(50%_+_443px)] right-[275px] left-[919px] rounded bg-whitesmoke-400 h-1"
     >
       <div
-        class="absolute w-[calc(100%_-_151.7px)] top-[0px] right-[89.7px] left-[62px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
+        class="absolute w-[calc(100%_-_151.7px)] top-[3px] right-[89.7px] left-[887px] rounded bg-mediumturquoise h-1 [transform:_rotate(180deg)] [transform-origin:0_0]"
       />
     </div>
     <div
