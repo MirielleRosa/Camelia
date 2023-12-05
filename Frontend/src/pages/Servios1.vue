@@ -9,7 +9,7 @@
       <div
         class="absolute top-[28px] left-[43%] flex flex-row items-start justify-start gap-[50px]"
       >
-        <div class="relative">Início</div>
+        <div class="relative cursor-pointer" @click="onIncioText1Click()">Início</div>
         <div class="relative">Serviços</div>
       </div>
       <img
