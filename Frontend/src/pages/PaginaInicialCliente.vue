@@ -3,7 +3,7 @@
     class="relative bg-grey-white w-full h-[4222px] overflow-hidden text-left text-base text-gray1-1500 font-roboto"
   >
     <div
-      class="absolute top-[2279px] left-[-23px] bg-gainsboro-400 w-[1488px] h-[762px]"
+      class="absolute top-[2518px] left-[10%] w-[1488px] h-[762px] text-lg text-color-7"
     />
     <img
       class="absolute top-[2982.6px] left-[1424.8px] w-[949px] h-[850px] object-cover hidden"
@@ -11,10 +11,10 @@
       src="/kisspngarchitecturearchitecturalengineeringconstructionengineerdesk5a68558a1a95b0-11@2x.png"
     />
     <div
-      class="absolute top-[124px] left-[-11px] w-[1451px] h-[826px] text-center text-2xs"
+      class="absolute h-[calc(100%_-_3435px)] w-[calc(100%_+_27px)] top-[124px] right-[0px] bottom-[3311px] left-[-27px] text-center text-2xs text-gray1-1500"
     >
       <div
-        class="absolute top-[752px] left-[64px] h-[74px] flex flex-col items-start justify-start"
+        class="absolute top-[752px] left-[20%] h-[74px] flex flex-col items-start justify-start"
       >
         <div class="flex flex-row items-end justify-start">
           <div class="relative w-[1284px] h-[90px]">
@@ -187,18 +187,18 @@
         </div>
       </div>
       <img
-        class="absolute top-[0px] left-[11px] w-[1451px] h-[724px] object-cover"
+        class="absolute h-[calc(100%_-_124px)] w-[calc(100%_-_16px)] top-[0px] right-[-11px] bottom-[124px] left-[27px] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src="/frame-2-91@2x.png"
       />
       <div
-        class="absolute top-[0.8px] left-[9px] bg-darkslategray-500 w-[1442px] h-[724px]"
+        class="absolute h-[calc(100%_-_124px)] w-[calc(100%_-_25px)] top-[1px] right-[0px] bottom-[123px] left-[25px] bg-darkslategray-500"
       />
       <div
-        class="absolute top-[0px] left-[3px] bg-darkslategray-600 w-[1448px] h-[724px]"
+        class="absolute h-[calc(100%_-_124px)] w-[calc(100%_-_19px)] top-[0px] right-[0px] bottom-[124px] left-[19px] bg-darkslategray-600"
       />
       <div
-        class="absolute top-[213.9px] left-[659px] h-[180.2px] flex flex-col items-start justify-start text-left text-29xl text-cream font-source-sans-pro"
+        class="absolute h-[85px] w-[790px] top-[260px] right-[40%] bottom-[525px] left-[46%] flex flex-col items-start justify-start text-left text-29xl text-cream font-source-sans-pro"
       >
         <b
           class="relative tracking-[0.02em] flex items-center w-[677px] h-[219px] shrink-0"
@@ -206,42 +206,22 @@
         >
       </div>
     </div>
-    <img
-      class="absolute top-[3691px] left-[0px] w-[1440px] h-[531px]"
-      alt=""
-      src="/rectangle-4.svg"
-    />
-    <div
-      class="absolute bottom-[228px] left-[468px] flex flex-row items-center justify-start gap-[30px] text-mini text-grey-white"
-    >
-      <div class="relative w-[99px] h-[75px] text-5xl font-judson">
-        <img
-          class="absolute top-[50.5px] left-[13.5px] w-[61px] h-[25.1px]"
-          alt=""
-          src="/vector-3.svg"
-        />
-        <div
-          class="absolute top-[25px] left-[0px] leading-[100%] inline-block w-[99px] h-[23px]"
-        >
-          CAMÉLIA
-        </div>
-        <img
-          class="absolute top-[-0.6px] left-[13.5px] w-[61px] h-[26.1px]"
-          alt=""
-          src="/vector-1.svg"
-        />
+    <div class="absolute top-[3934px] left-[0px] w-[100%] h-[504.7px] text-5xl text-grey-white font-judson">
+      <div class="absolute top-[0px] left-[0px] bg-gray1-1500 w-[100%] h-[504.7px]">
+    </div>
+      <div class="absolute bottom-[217.4px] left-[40%] h-[71.3px] top-[120px] flex flex-row items-center justify-start gap-[30px]">
+        <div class="relative w-[99px] h-[75px]">
+        <img class="absolute top-[50.5px] left-[13.5px] w-[61px] h-[25.1px]" alt="" src="/vector-3.svg"><div class="absolute top-[25px] left-[0px] leading-[100%] inline-block w-[99px] h-[23px]"> CAMÉLIA </div>
+        <img class="absolute top-[-0.6px] left-[13.5px] w-[61px] h-[26.1px]" alt="" src="/vector-1.svg">
       </div>
-      <div class="relative leading-[19px] flex items-center w-[121px] shrink-0">
-        Central de Ajuda
-      </div>
-      <div class="relative leading-[19px]">Termos de Uso</div>
-      <div
-        class="relative leading-[19px] font-regular cursor-pointer"
-        @click="onSobreTextClick"
-      >
-        Sobre
+      <div class="relative w-[324px] h-[19px] text-mini font-roboto">
+        <div class="absolute top-[0px] left-[0px] leading-[19px] flex items-center w-[121px]"> Central de Ajuda </div>
+        <div class="absolute top-[0px] left-[151px] leading-[19px]"> Termos de Uso </div>
+        <div class="absolute top-[0px] left-[282px] leading-[19px] font-regular cursor-pointer"> Sobre </div>
       </div>
     </div>
+    </div>
+    
     <div
       class="absolute top-[1678px] left-[calc(50%_-_711px)] w-[1441px] h-[522px] text-darkslategray-400"
     >
@@ -612,18 +592,19 @@
           </div>
         </div>
       </div>
+      
     </div>
     <div
-      class="absolute top-[15px] left-[66px] w-[760.3px] h-[99px] text-center text-xl"
+      class="absolute top-[15px] left-[10%] w-[760.3px] h-[99px] text-center text-xl"
     >
-      <div
-        class="absolute top-[31px] left-[585px] w-[175.3px] flex flex-row items-start justify-start gap-[50px]"
-      >
-        <div class="relative">Início</div>
-        <div class="relative cursor-pointer" @click="onServiosTextClick">
-          Serviços
-        </div>
-      </div>
+    <div class="absolute top-[0px] left-[1%] w-[760.3px] h-[99px] text-center text-xl" style="z-index: 1;">
+  <div class="absolute top-[31px] left-[585px] w-[175.3px] flex flex-row items-start justify-start gap-[50px]">
+    <div class="relative">Início</div>
+    <div class="relative cursor-pointer" style="z-index: 2;" @click="onServiosTextClick">Serviços</div>
+  </div>
+  
+</div>
+
       <img
         class="absolute top-[0px] left-[0px] w-[128.5px] h-[99px] overflow-hidden cursor-pointer"
         alt=""
@@ -631,24 +612,23 @@
         @click="onGroup71Click"
       />
     </div>
+    
     <img
-      class="absolute top-[calc(50%_-_1987px)] left-[calc(50%_-_675px)] w-[575px] h-[723px] object-cover"
+      class="absolute top-[calc(50%_-_2046px)] left-[calc(50%_-_675px)] w-[575px] h-[723px] object-cover"
       alt=""
       src="/unsplashkho-jvns5xc1@2x.png"
     />
     <img
-      class="absolute top-[70px] left-[650.5px] w-[50px] h-px"
+      class="absolute top-[70px] left-[41.020%] w-[50px] h-px"
       alt=""
       src="/line-234.svg"
     />
+    <div class="absolute top-[46px] left-[53%] w-[127px] h-[23px] cursor-pointer text-center text-xl" style="z-index: 2;">
+  <div class="absolute top-[0px] left-[0px]" @click="onGroupContainer15Click">Meus Pedidos</div>
+</div>
+
     <div
-      class="absolute top-[46px] left-[860px] w-[127px] h-[23px] cursor-pointer text-center text-xl"
-      @click="onGroupContainer15Click"
-    >
-      <div class="absolute top-[0px] left-[0px]">Meus Pedidos</div>
-    </div>
-    <div
-      class="absolute top-[25px] left-[1144px] w-[236px] h-[65px] text-center text-6xl"
+      class="absolute top-[25px] left-[80%] w-[236px] h-[65px] text-center text-6xl"
     >
       <div class="absolute top-[0px] left-[0px] w-[206px] h-[65px]">
         <div class="absolute top-[23px] left-[97px]">Francisco</div>
@@ -656,7 +636,7 @@
           class="absolute top-[0px] left-[0px] rounded-[50%] bg-gray1-1500 w-[67px] h-[65px]"
         />
         <div
-          class="absolute top-[6px] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
+          class="absolute top-[0] left-[21px] text-21xl font-medium font-ibm-plex-serif text-grey-white"
         >
           F
         </div>
@@ -664,8 +644,7 @@
       <img
         class="absolute h-[49.54%] w-[12.71%] top-[35.38%] right-[0%] bottom-[15.08%] left-[87.29%] max-w-full overflow-hidden max-h-full cursor-pointer"
         alt=""
-        src="/arrow--caret-down-md5.svg"
-        :onClick="openPopUpSair"
+        src="/arrow--caret-down-md5.svg" :onClick="openPopUpSair"
       />
     </div>
     <div
@@ -853,15 +832,15 @@
       class="absolute top-[-3013px] left-[-256px] w-[1903px] h-[7959px] text-dimgray-700 font-source-sans-pro"
     >
       <div
-        class="absolute top-[4082px] left-[654px] text-29xl font-semibold font-ibm-plex-serif text-darkslategray-200"
+        class="absolute top-[4082px] left-[48%] text-29xl font-semibold font-ibm-plex-serif text-darkslategray-200"
       >
         Pedidos mais requisitados
       </div>
       <div
-        class="absolute top-[0px] left-[0px] w-[1903px] h-[7959px] text-5xl text-gray1-1500"
+        class="absolute top-[0px] left-[20%] w-[1903px] h-[7959px] text-5xl text-gray1-1500"
       >
         <div
-          class="absolute top-[4185px] left-[0px] bg-gray1-1800 w-[1903px] h-[461px]"
+          class="absolute top-[4185px] left-[50%] bg-gray1-1800 w-[1903px] h-[461px]"
         />
         <div
           class="absolute top-[4227px] left-[793px] rounded-lg bg-grey-white shadow-[0px_4px_12px_rgba(0,_0,_0,_0.12)] w-[317px] h-[356px]"
@@ -938,12 +917,6 @@
           src="/image1.svg"
         />
         <div
-          class="absolute top-[0px] left-[392px] rounded-lg w-[544px] h-[7959px]"
-        />
-        <div
-          class="absolute top-[0px] left-[0px] rounded-lg w-[1052px] h-[7959px]"
-        />
-        <div
           class="absolute top-[4314px] left-[813px] text-mini font-roboto inline-block w-[139px]"
         >
           Serviços Elétricos
@@ -1010,32 +983,32 @@
         </div>
       </div>
       <div
-        class="absolute top-[4516px] left-[477px] leading-[20.8px] inline-block w-[187px]"
+        class="absolute top-[4516px] left-[45%] leading-[20.8px] inline-block w-[187px]"
       >
         14 de Outubro de 2023
       </div>
       <div
-        class="absolute top-[4516px] left-[1152px] leading-[20.8px] inline-block w-[187px]"
+        class="absolute top-[4516px] left-[80.5%] leading-[20.8px] inline-block w-[187px]"
       >
         14 de Outubro de 2023
       </div>
       <img
-        class="absolute top-[4266px] left-[1157px] w-12 h-12 overflow-hidden"
+        class="absolute top-[4266px] left-[80.5%] w-12 h-12 overflow-hidden"
         alt=""
         src="/image2.svg"
       />
       <img
-        class="absolute top-[4262px] left-[466px] w-[50px] h-[50px] overflow-hidden"
+        class="absolute top-[4262px] left-[44%] w-[50px] h-[50px] overflow-hidden"
         alt=""
         src="/image3.svg"
       />
       <img
-        class="absolute h-[0.44%] w-[1.19%] top-[53.66%] right-[83.02%] bottom-[45.9%] left-[15.79%] max-w-full overflow-hidden max-h-full"
+        class="absolute h-[0.44%] w-[1.19%] top-[53.66%] left-[30.02%] bottom-[45.9%] left-[15.79%] max-w-full overflow-hidden max-h-full"
         alt=""
         src="/-icon-nav-arrow-left2.svg"
       />
       <img
-        class="absolute h-[0.44%] w-[1.19%] top-[53.66%] right-[16.07%] bottom-[45.9%] left-[82.74%] max-w-full overflow-hidden max-h-full"
+        class="absolute h-[0.44%] w-[1.19%] top-[53.66%] left-[100%] bottom-[45.9%] left-[82.74%] max-w-full overflow-hidden max-h-full"
         alt=""
         src="/-icon-nav-arrow-left3.svg"
       />
@@ -1561,17 +1534,17 @@
       >Clientes Satisfeitos</b
     >
     <div
-      class="absolute top-[2314px] left-[540px] text-13xl leading-[34px] font-black font-raleway text-dimgray-800 flex items-center w-[376.2px] h-[37px]"
+      class="absolute top-[2314px] left-[42%] text-13xl leading-[34px] font-black font-raleway text-dimgray-800 flex items-center w-[376.2px] h-[37px]"
     >
       Mais de 4444 projetos e
     </div>
     <div
-      class="absolute top-[2375px] left-[469px] text-13xl leading-[34px] font-black font-raleway text-lightseagreen-100 flex items-center w-[218.8px] h-[37px]"
+      class="absolute top-[2375px] left-[38%] text-13xl leading-[34px] font-black font-raleway text-lightseagreen-100 flex items-center w-[218.8px] h-[37px]"
     >
       problemas de
     </div>
     <div
-      class="absolute top-[2375px] left-[701px] text-13xl leading-[34px] font-black font-raleway text-mediumaquamarine-100 flex items-center w-[314.4px] h-[37px]"
+      class="absolute top-[2375px] left-[52%] text-13xl leading-[34px] font-black font-raleway text-mediumaquamarine-100 flex items-center w-[314.4px] h-[37px]"
     >
       reformas resolvidos
     </div>
